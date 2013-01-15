@@ -5,7 +5,7 @@ Appthemes-unity
 
 This is part of a project to connect local small businesses with a series of useful web apps. We're using 'Appthemes' Wordpress themes as a base.
 
-As each of the themes comes with its own unique style we've decided to build a unified set of child themes, allowing developers to build and manage multiple 'Appthemes' themes and still keep the branding unified.
+Each 'Apptheme' comes with its own unique style so we've decided to build a unified set of child themes, allowing developers to keep the same branding across multiple 'Appthemes'.
 
 <strong>Please note:</strong> These are child themes only. To use these files you will also need the latest versions from the <a href="http://www.appthemes.com/">Appthemes website</a>.
 
