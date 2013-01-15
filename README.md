@@ -1,10 +1,14 @@
 Appthemes-unity
 ===============
+-------------------------------------
+Wordpress child themes built to unify the design of 'Appthemes' themes. 
+Please feel free to use but please send <a href="http://paintmine.com">us</a> love.
+-------------------------------------
 
-<div style="border:1px solid #ccc; padding:20px; background:#fefefe;">Wordpress child themes aiming to unify the design of the excellent 'Appthemes' themes. Please feel free to use and improve.</div>
+This is part of a project to connect local small businesses with a series of useful web apps. We're using 'Appthemes' Wordpress themes as a base.
 
-I'm working on a project to connect local small businesses with a series of useful web apps. I decided to use 'Appthemes' as I was familiar with Wordpress networks and like the idea of managing the apps one site at a time.
+As each of the themes comes with its own unique style we've decided to build a unified set of child themes, allowing developers to build and manage multiple 'Appthemes' themes and still keep the branding unified.
 
-View available themes at the <a href="http://www.appthemes.com/">Appthemes website</a>.
+View at the <a href="http://www.appthemes.com/">Appthemes website</a>.
 
-As I'm using all the themes I need several new child-themes to keep the branding unified & users happy. 
+So far we've nearly completed 'Vantage' and 'Classipress' childthemes. 'Clipper' is next on the list
