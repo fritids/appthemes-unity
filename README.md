@@ -12,7 +12,7 @@ Each 'Apptheme' comes with its own unique style so we've decided to build a unif
 So far we've nearly completed 'Vantage' and 'Classipress' childthemes. 'Clipper' is next on the list.
 The final goal is to integrate each of these themes at a coding level (e.g. if you have a coupon attached to your business listing then it will display on the Vantage directory).
 
-If this sounds like a worthy project please get stuck in.
+If this sounds like a worthy project please get stuck in, send us any changes you make so we can integrate it into our files.
 
 Corbin
 
