@@ -1,7 +1,7 @@
 Appthemes-unity
 ===============
 
-Wordpress child themes aiming to unify the design of the excellent 'Appthemes' themes. Please feel free to use and improve.
+<div style="border:1px solid #ccc; padding:20px; background:#fefefe;">Wordpress child themes aiming to unify the design of the excellent 'Appthemes' themes. Please feel free to use and improve.</div>
 
 I'm working on a project to connect local small businesses with a series of useful web apps. I decided to use 'Appthemes' as I was familiar with Wordpress networks and like the idea of managing the apps one site at a time.
 
