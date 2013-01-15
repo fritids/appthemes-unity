@@ -1,9 +1,8 @@
 Appthemes-unity
 ===============
--------------------------------------
-Wordpress child themes built to unify the design of 'Appthemes' themes. 
-Please feel free to use but please send <a href="http://paintmine.com">us</a> love.
--------------------------------------
+
+<h3>Wordpress child themes built to unify the design of 'Appthemes' themes. 
+Please feel free to use but please send <a href="http://paintmine.com">us</a> love.</h3>
 
 This is part of a project to connect local small businesses with a series of useful web apps. We're using 'Appthemes' Wordpress themes as a base.
 
