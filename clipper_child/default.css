@@ -107,10 +107,11 @@ img {
 	border-style:none;
 }
 a {
-	color:#07609E;
+	/*color:#07609E;*/
+        text-decoration:none;
 }
 a:hover {
-	text-decoration:none;
+	text-decoration:underline;
 }
 input, textarea, select {
 	font:100% "Trebuchet MS", Arial, Helvetica, sans-serif;
@@ -196,15 +197,18 @@ position:relative;
 	width:270px;
 	float:right;
 /*	margin:4px 20px 0 0;*/
+	margin-top: 14px;
 	position:relative;
 	display:inline;
 }
 #footer {
 	height:320px;
+        border-top:1px solid #1f1f1f;
 	position:relative;
 	width:100%;
 	font-size:12px;
 	line-height:20px;
+        background:url('images/footer_bg.png');
 }
 
 /* =Utility styles
@@ -256,9 +260,9 @@ position:relative;
 	clear:both;
 }
 .btn {
-	-moz-border-radius:6px;
-	-webkit-border-radius:6px;
-	border-radius:6px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
 	display:inline-block;
 	color:#ffffff;
 	font-size:18px;
@@ -299,7 +303,7 @@ position:relative;
 
 /* =Header layout styles
 -------------------------------------------------------------- */
-.pmenucontainer {height:22px; padding:4px 0 4px 0; border-top:1px solid #333; border-bottom:1px solid #333; background:#ccc; position:relative;}
+.pmenucontainer {height:22px; padding:4px 0 4px 0; border-top:1px solid #A53636; border-bottom:1px solid #A53636; background:#B65353; position:relative;}
 .pmhmenu {width:960px; margin:0 auto;}
 #nav {
 /*	margin:0;
@@ -329,23 +333,22 @@ position:relative;
 	border-radius:3px 3px 0 0;*/
 }
 #nav li a {
-        display:block;
-/*        margin:0 10px 0 0;*/
-	color:#666;
-	cursor:pointer;
-	float:left;
-/*	font-weight:bold;*/
-	height:18px;
-        line-height:18px;
-	padding:2px 10px;
-	text-align:center;
-	text-decoration:none;
-	text-shadow:0 1px 0 #fff;
-	text-transform:uppercase;
+display: block;
+color: #000;
+cursor: pointer;
+float: left;
+height: 18px;
+line-height: 18px;
+padding: 2px 10px;
+text-align: center;
+text-decoration: none;
+text-shadow: 0 1px 0 #F57F7F;
+text-transform: uppercase;
 }
 #nav li a:hover {
 	color:#666;
         background:#f7f7f7;
+        text-shadow:none;
 }
 #nav li:hover {
 /*	margin-top:-2px;*/
@@ -366,6 +369,7 @@ position:relative;
 	box-shadow:0 2px 10px #666666, 0 2px 10px #666666;*/
 }
 #nav li.active a {
+            text-shadow:none;
 /*	color:#838484;
 	font-weight:bold;
 	height:35px;
@@ -517,14 +521,14 @@ padding-top:5px;
 }
 #header .search-box .text {
 	margin:0 10px 0 0;
-	width:388px;
+	width:600px;
 	float:left;
 }
 #header .search-box .text input {
 	padding:11px;
 	margin:0;
-	border:1px solid #ddd;
-	width:360px;
+	border:1px solid #ccc;
+	width:568px;
 	text-align:left;
 	font-size:18px;
 	color:#666;
@@ -630,9 +634,14 @@ a.tax-link {
 .featured-slider .slider img:hover {
 	opacity:0.6;
 }
-.featured-slider .slider a {
-	font:bold 12px/16px Arial,Helvetica,sans-serif;
+.featured-slider .slider span a {
+	font:12px/16px Arial,Helvetica,sans-serif;
 	text-decoration:none;
+	display:block;
+	width:150px;
+	padding:3px 5px;
+	background:#B65353;
+	color:#F3C6C6;
 }
 .featured-slider .slider a:hover {
 	text-decoration:underline;
@@ -846,7 +855,7 @@ a.tax-link {
         width: 668px;
         margin: 15px 0 20px 0;
         background: #F7F7F7;
-        border: 1px solid #DDD;
+        border: 1px solid #ccc;
 }
 .content-box .item-holder {
 /*	background:url(images/bg-item-t.gif) no-repeat;*/
@@ -892,7 +901,7 @@ a.tax-link {
 	text-align:center;
 }
 .thumbsup-vote .progress {
-	border:1px solid #CCCCCC;
+	/*border:1px solid #CCCCCC;
 	background:-moz-linear-gradient(center top , #CCCCCC, #E9E9E9) repeat scroll 0 0 transparent;
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(1%,#E9E9E9), color-stop(100%,#CCCCCC));
 	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#E9E9E9', endColorstr='#CCCCCC',GradientType=0 ); /* ie */
@@ -900,7 +909,7 @@ a.tax-link {
 	-khtml-border-radius:4px;
 	-webkit-border-radius:4px;
 	border-radius:4px;
-	-moz-box-shadow:0 1px 0 #FFFFFF;
+	-moz-box-shadow:0 1px 0 #FFFFFF;*/
 	display:block;
 	height:14px;
 	margin:7px 2px 4px;
@@ -936,11 +945,11 @@ a.tax-link {
 	position:relative;
 	text-align:center;
 	width:0;
-	-moz-border-radius:3px;
+	/*-moz-border-radius:3px;
 	-khtml-border-radius:3px;
 	-webkit-border-radius:3px;
 	border-radius:3px;
-	-moz-box-shadow:0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	-moz-box-shadow:0 1px 0 rgba(255, 255, 255, 0.5) inset;*/
 }
 .progress span b {
 	color:#FFFFFF;
@@ -968,7 +977,7 @@ a.tax-link {
 	float:right;
 	min-width:60px;
 	height:12px;
-	margin:2px 2px 0;
+	margin:3px/*2px 2px 0*/;
 }
 .results .progress-holder .progress span {
 	height:10px;
@@ -1400,10 +1409,10 @@ p.link-popup span {
 	background:url('images/badge-red.png') no-repeat;
 }
 .stripe-badge-green {
-	background:url("images/bg-result-green.png") repeat-x scroll 0 0 transparent;
+	background:#75AA3C;
 }
 .stripe-badge-red {
-	background:url("images/bg-result-red.png") repeat-x scroll 0 0 transparent;
+	background:#B65353;
 }
 .stripe-badge-orange {
 	background:url("images/bg-result-orange.png") repeat-x scroll 0 0 transparent;
@@ -1730,7 +1739,7 @@ p#comment-closed {
 	color:#555655;
 	padding:15px 20px;
         border: 1px solid #EEE;
-        background: #F7F7F7;
+        /*background: #F7F7F7;*/
 }
 .head-box {
 	overflow:hidden;
@@ -2432,7 +2441,7 @@ p.success {
 	width:136px;
 	text-align:right;
 	font:italic 11px/13px Verdana, Geneva, Arial, Helvetica, sans-serif;
-	color:#8a8a8a;
+	color:#666;
 	margin:4px 10px 0 20px;
 }
 #couponForm .text,
@@ -2441,8 +2450,8 @@ p.success {
 .commentForm .text,
 #loginForm .form-table .text {
 /*	background:url("images/text-bg.gif") repeat-x scroll center top transparent;*/
-	border:1px solid #A3A9AD;
-	border-bottom:1px solid #D9D9D9;
+	border:1px solid #ddd;
+	/*border-bottom:1px solid #D9D9D9;*/
 	width:277px;
 /*	-khtml-border-radius:4px;
 	-moz-border-radius:4px;
@@ -2467,7 +2476,7 @@ p#store-name, p#coupon-type-name {
 	font-size:14px;
 }
 .sidebox .text {
-	background:url("images/text-bg.gif") repeat-x scroll center top transparent;
+	/*background:url("images/text-bg.gif") repeat-x scroll center top transparent;
 	border:1px solid #A3A9AD;
 	border-bottom:1px solid #D9D9D9;
 	float:left;
@@ -2475,7 +2484,7 @@ p#store-name, p#coupon-type-name {
 	-khtml-border-radius:4px;
 	-moz-border-radius:4px;
 	-webkit-border-radius:4px;
-	border-radius:4px;
+	border-radius:4px;*/
 }
 #couponForm input.text,
 #loginForm input.text,
@@ -2547,15 +2556,15 @@ div.invalid {
 	margin:2px 0 0 167px;
 }
 #respond textarea.commentbox {
-	background:url("images/textarea-bg.gif") repeat-x scroll center top #FFFFFF;
-	border:1px solid #A3A9AD;
-	border-bottom:1px solid #D9D9D9;
+	background:#f7f7f7/*url("images/textarea-bg.gif") repeat-x scroll center top #FFFFFF*/;
+	border:1px solid #ddd;
+	/*border-bottom:1px solid #D9D9D9;*/
 	width:433px !important;
 	height:100px;
 	padding:5px;
 	margin:0;
 	font:11px/13px Verdana, Geneva, Arial, Helvetica, sans-serif;
-	color:#8a8a8a;
+	color:#666;
 /*	-khtml-border-radius:4px;
 	-moz-border-radius:4px;
 	-webkit-border-radius:4px;
@@ -2566,14 +2575,14 @@ div.invalid {
 .post-box textarea#description,
 .post-box li.description textarea {
 /*	background:url("images/textarea-bg.gif") repeat-x scroll center top #FFFFFF;*/
-	border:1px solid #A3A9AD;
-	border-bottom:1px solid #D9D9D9;
+	border:1px solid #ddd;
+	/*border-bottom:1px solid #D9D9D9;*/
 	width:441px;
 	height:200px;
 	padding:5px;
 	margin:0;
 	font:11px/13px Verdana, Geneva, Arial, Helvetica, sans-serif;
-	color:#8a8a8a;
+	color:#666;
 /*	-khtml-border-radius:4px;
 	-moz-border-radius:4px;
 	-webkit-border-radius:4px;
@@ -2926,7 +2935,7 @@ button.profile {
 }
 #sidebar .subscribe-box .subscribe-holder {
 	margin:0px;
-	padding:5px 15px;
+	/*padding:5px 15px;*/
 	position:relative;
 }
 #sidebar .subscribe-box .text-box {
@@ -2941,26 +2950,38 @@ button.profile {
 	margin:0 0 13px;
 	text-align:center;
 	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	display:none;
 }
 #sidebar .subscribe-form {
 	padding:0 0 0 0px;
 }
 #sidebar .subscribe-form .text {
-	margin:0 0 0px 0;
-	background:url(images/bg-subscribe-input.gif) no-repeat;
-	width:228px;
+	/*margin:0 0 0px 0;
+	background:#f7f7f7; url(images/bg-subscribe-input.gif) no-repeat;
+	width:258px;
 	font-size:12px;
 	color:#7a7a7a;
-	border:none;
+	border:1px solid #ccc;*/
 }
 #sidebar .subscribe-form .text input {
-	padding:5px;
+	/*padding:5px;
 	margin:0;
 	width:220px;
 	background:none;
 	font-size:11px;
 	color:#7a7a7a;
-	border:none;
+	border:none;*/
+	margin:0 0 0px 0;
+	background:#fff;/*url(images/bg-subscribe-input.gif) no-repeat*/;
+	width:248px;
+	-moz-border-radius:2px;
+	-khtml-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	font-size:12px;
+	padding:10px;
+	color:#7a7a7a;
+	border:1px solid #ccc;
 }
 #sidebar .subscribe-form .row {
 	overflow:hidden;
@@ -3070,15 +3091,15 @@ button.profile {
 	text-shadow:1px 1px 1px #FFFFFF;
 }
 #sidebar .coupon-cats-widget .list li {
-	background:url("images/folder-open.png") no-repeat scroll 10px 10px transparent;
+	background:url("images/folder-open.png") no-repeat scroll 8px 6px transparent;
 	border-bottom:1px dashed #dbdbdb;
-	padding:10px 17px;
+	/*padding:10px 17px;*/
 	margin:1px 0 -1px;
 	font-size:11px;
 	text-shadow:1px 1px 1px #FFFFFF;
 }
 #sidebar .coupon-searches-widget .list li {
-	background:url("images/search-icon.png") no-repeat scroll 10px 12px transparent;
+	background:url("images/search-icon.png") no-repeat scroll 10px 8px transparent;
 }
 #sidebar .box .list li p,
 #sidebar .sidebox .list li p {
@@ -3088,8 +3109,8 @@ button.profile {
 #sidebar .coupon-ticker,
 #sidebar .store-widget,
 #sidebar .coupon-cats-widget {
-	margin-left:-10px;
-	padding:0 4px;
+	/*margin-left:-10px;
+	padding:0 4px;*/
 }
 #sidebar .box .list li:hover,
 #sidebar .sidebox .list li:hover,
@@ -3385,7 +3406,7 @@ ul.widgets li.widget .widget_content {
 .sidebox-content .search-box,
 .sidebox-content .tagcloud {
 	margin:0;
-	padding:5px 10px;
+	padding:0 0 0 5px;*/
 }
 .sidebox .sidebox-heading {
 	background:url(images/headerbg.png) left bottom repeat-x;
@@ -3406,9 +3427,11 @@ ul.widgets li.widget .widget_content {
 	margin:0;
 	padding:0 5px 0 5px;
 }
+.sidebox ul.user-stats li {
+	padding-left: 20px;
+}
 .sidebox ul li {
 /*	background:url('images/sidebox-li.jpg') 0 5px no-repeat;*/
-        height:28px;
         line-height:28px;
         border-bottom:1px solid #dfdfdf;
         padding-left:10px;
@@ -3474,9 +3497,9 @@ div.success {
 	width:215px;
 }
 .sidebox .text {
-	width:225px;
+	width:269px;
 	margin:0;
-	padding:6px 5px;
+	padding:6px 0;
 	font:11px/13px Verdana, Geneva, Arial, Helvetica, sans-serif;
 	color:#8a8a8a;
 }
@@ -3776,6 +3799,7 @@ ul.user-details li {
 	background:none;
 	border-bottom:none;
 	padding:0 0 7px;
+        line-height:16px;
 }
 ul.user-details li:hover {
 	background:none;
@@ -3783,11 +3807,13 @@ ul.user-details li:hover {
 ul.user-info li {
 	background:none;
 	border:none;
-	padding:3px 10px;
+	padding: 0;
+        line-height: 18px;
 }
 ul.user-details li a,
 ul.user-info li a {
 	text-decoration:underline;
+        
 }
 ul.user-details li a:hover,
 ul.user-info li a:hover {
@@ -3831,8 +3857,9 @@ ul.user-info li:hover {
 	margin:0 0 8px;
 }
 #footer .panel {
-	background:url(images/bg-footer.gif) repeat-x;
+	/*background:url(images/bg-footer.gif) repeat-x;*/
 	height:275px;
+        color:#bbb;
 }
 #footer .panel .panel-holder {
 	width:955px;
@@ -3854,14 +3881,15 @@ ul.user-info li:hover {
 	margin:0;
 }
 #footer .panel .box h4 {
-	margin:0 0 30px;
+	margin:0 0 3px;
 	font-size:18px;
-	line-height:20px;
+	line-height:18px;
 	font-weight:normal;
-	color:#5b5b5b;
+	color:#bbb;
+        font-family:geneva, serif;
 	padding:0 0 0 26px;
-	background:url("images/ico-footer.gif") no-repeat scroll 0 2px transparent;
-	text-shadow:1px 1px 1px #FFFFFF;
+	/*background:url("images/ico-footer.gif") no-repeat scroll 0 2px transparent;
+	text-shadow:1px 1px 1px #FFFFFF;*/
 }
 #footer .panel .about h4 {
 	background-position:0 3px;
@@ -3894,7 +3922,8 @@ ul.user-info li:hover {
 	background:url("images/tag-label.png") no-repeat scroll 0 3px transparent;
 }
 #footer .panel .widget_text h4 {
-	background:url("images/newspaper.png") no-repeat scroll 0 3px transparent;
+	background:url(images/headerbgfoot.png) bottom repeat-x;
+        padding:0 0 3px 5px;
 }
 #footer .panel .widget_recent_comments h4 {
 	background:url("images/comments.png") no-repeat scroll 0 3px transparent;
@@ -4014,9 +4043,10 @@ ul.user-info li:hover {
 }
 #footer .bar-holder p {
 	margin:0;
+        color:#777;
 }
 #footer .bar-holder p a {
-	color:#fff;
+	color:#ccc;
 }
 #footer .bar-holder ul {
 	margin:0 69px 0 0;
@@ -4029,7 +4059,7 @@ ul.user-info li:hover {
 	padding:0 9px 0 0;
 }
 #footer .bar-holder ul li a {
-	color:#fff;
+	color:#ccc;
 }
 
 /* =Misc styles

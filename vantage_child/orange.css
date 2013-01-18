@@ -71,14 +71,12 @@ article.listing h2 a {
 /* =========== [ 3. LISTINGS ] =========== */
 
 article.listing.featured {
-	background: #FFFBDD;
-/*	border-top: 1px solid #EbE4C9;
-	border-bottom: 1px solid #EbE4C9;*/
-        border:1px solid #F8C932;
+	background: #FFFEF5;
+	border: 1px solid #ECE2C4;
 }
 
 article.listing.featured p {
-	color: #a48200;
+	color: #BB9400;
 }
 
 #main .featured-head {
@@ -98,7 +96,8 @@ article.listing.featured p {
 	-moz-text-shadow: 0 1px 0 #fff;
 	-webkit-text-shadow: 0 1px 0 #fff;
 	text-shadow: 0 1px 0 #fff;
-        font-weight: normal;
+    font-weight: normal;
+    background: none;
 }
 
 /* =========== [ 4. SINGLE LISTING ] =========== */
@@ -190,13 +189,13 @@ input[type=submit]:hover {
 	-moz-text-shadow: 0 1px 1px #05486F;
 	-webkit-text-shadow: 0 1px 1px #05486F;
 	text-shadow: 0 1px 1px #05486F;*/
-        text-indent: 0;
-	width: 235px;
+    text-indent: 0;
+	width: 248px;
 	height: 37px;
 	padding: 10px 10px 0;
 	display: block;
 	text-align: center;
-	margin-top: 4px;
+	/*margin-top: 4px;*/
 	font: 21px UbuntuRegular, Tahoma, Arial, sans-serif;
 	outline: none;
 	position: relative;
@@ -216,7 +215,7 @@ input[type=submit]:hover {
 	background: linear-gradient(top,#CAE285 0%,#A3CD5A 100%);
 	background-color: #B6D76F;
 	font-weight: bold;
-	letter-spacing: -1px;
+	/*letter-spacing: -1px;*/
 }
 #sidebar .widget_create_listing_button a:hover {border-top: 1px solid #98B85B;
 	box-shadow: inset 0 1px #CCE3A1, inset 1px 0 #C6E08D, inset -1px 0 #C6E08D, inset 0 -1px #C7E18E, 0 2px #799545, 0 3px #6D883B, 0 4px 2px rgba(0,0,0,0.4);

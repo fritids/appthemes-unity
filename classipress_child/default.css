@@ -801,7 +801,7 @@ label.marker {padding: 2px 0 0 5px; vertical-align: text-top; position: absolute
 .error-coupon {color: #CC0000; font-weight:bold;}
 
 /* single meta */
-.note {background-position:10px 10px;background-repeat:no-repeat;font-size:11px;height:auto;line-height:22px;margin:10px 0 20px;padding:10px 10px 10px 20px;position:relative;text-transform:uppercase;background-color:#E2EAF1; color:#1F96BB;/*background-image:url(images/note.png);border:1px solid #1F96BB;-khtml-border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px;*/}
+.note {background-position:10px 10px;background-repeat:no-repeat;font-size:11px;height:auto;line-height:22px;margin:10px 0 20px;position:relative;text-transform:uppercase;color:#1F96BB;/*background-image:url(images/note.png);border:1px solid #1F96BB;-khtml-border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px;*/}
 
 .prdetails {padding:5px 0 20px 0;}
 .prdetails p.tags{background:transparent url(images/tag_orange.png) no-repeat scroll 0 6px; clear:both; padding:5px 0 5px 25px;min-height:20px;font-size:11px;}
