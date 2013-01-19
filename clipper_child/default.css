@@ -265,7 +265,7 @@ position:relative;
 	border-radius:2px;
 	display:inline-block;
 	color:#ffffff;
-	font-size:18px;
+	font-size:16px;
 	padding:6px 20px;
 	text-decoration:none;
 	text-shadow:0 -1px 0 rgba(0, 0, 0, 0.3);
@@ -278,6 +278,15 @@ position:relative;
 	position:relative;
 	top:1px;
 }
+INPUT[type="text"]:focus,
+INPUT[type="number"]:focus,
+INPUT[type="email"]:focus,
+INPUT[type="search"]:focus,
+INPUT[type="password"]:focus,
+INPUT[type="range"]:focus
+{
+    outline: 1px solid #fff;    
+}​
 #simpleTooltip {
 	padding:5px 7px;
 	background:#111;
@@ -531,9 +540,10 @@ padding-top:5px;
 	width:568px;
 	text-align:left;
 	font-size:18px;
-	color:#666;
+	color:#888;
 	background:#fff;
 }
+
 #header .search-box .btn-submit {
 	float:left;
 	margin:0;
@@ -1069,8 +1079,9 @@ a.tax-link {
 	float:left;
 }
 .content-box .item-panel h1 {
-	font:20px/22px "Trebuchet MS", Arial, Helvetica, sans-serif;
-	margin:0px;
+	/*font:20px/22px "Trebuchet MS", Arial, Helvetica, sans-serif;*/
+	font-size:22px;
+	margin:10px 0 0 0;
 }
 .content-box .item-panel h1 a {
 	text-decoration:none;
@@ -1209,7 +1220,7 @@ a.coupon-code-link {
 }
 a.coupon-code-link span {
 	background:url("images/bg-coupon-code-right.gif") no-repeat scroll right top transparent;
-	color:#78691B;
+	color:#684D4D;
 	display:block;
 	font-size:14px;
 	font-weight:bold;
@@ -3923,7 +3934,7 @@ ul.user-info li:hover {
 }
 #footer .panel .widget_text h4 {
 	background:url(images/headerbgfoot.png) bottom repeat-x;
-        padding:0 0 3px 5px;
+        padding:0 0 6px 5px;
 }
 #footer .panel .widget_recent_comments h4 {
 	background:url("images/comments.png") no-repeat scroll 0 3px transparent;

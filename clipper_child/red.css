@@ -55,7 +55,10 @@ margin-right:5px;
 	height: 211px;	
 }
 .content-box .item .item-panel h3{
-	color:#666;
+	color: #666;
+	font-family: arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
 }
 #sidebar .sidebox .cut{
 	background:url(../images/cut-red.png) no-repeat;
