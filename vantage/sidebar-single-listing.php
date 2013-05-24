@@ -1,1 +1,0 @@
-<?php dynamic_sidebar( 'single-listing' ); ?>
