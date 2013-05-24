@@ -18,7 +18,6 @@
 
 		</div><!-- /header_top -->
 
-
 		<div class="header_main">
 
 				<div class="header_main_bg">
@@ -33,7 +32,7 @@
 														<a href="<?php echo home_url(); ?>"><img src="<?php echo get_option('cp_logo'); ?>" alt="<?php bloginfo('name'); ?>" class="header-logo" /></a>
 												<?php } else { ?>
 														<a href="<?php echo home_url(); ?>"><div class="cp_logo"></div></a>
-												<?php } ?><div class="hdmenu"><ul><li class="hdmenustart"></li><ul><li><a href="*">Directory</a></li><li><a href="*">Forums</a></li><li><a href="*">Events</a></li><li><a href="*">Coupons</a></li><li><a href="*">Jobs</a></li></ul></ul></div>
+												<?php } ?>
                                                 
 										<?php } else { ?>
 
@@ -55,9 +54,9 @@
 				</div><!-- /header_main_bg -->
 
 		</div><!-- /header_main -->
-                <div class="pmainmen">
-                    <div class="pmainnav"><ul><li class="pmactive"><a href="*">Classifieds</a></li><li><a href="*">Directory</a></li><li><a href="*">Forums</a></li><li><a href="*">Jobs</a></li></ul></div>
-                </div>
+			<div id="sitenav">
+				<ul><li><a href="http://brentbook.com">News</a></li><li><a href="http://directory.brentbook.com">Directory</a></li><li><a href="http://jobs.brentbook.com">jobs</a></li><li><a href="http://forums.brentbook.com">Forums</a></li><li class="bbcurrent"><a href="http://classifieds.brentbook.com">Classifieds</a></li></ul>
+			</div>
 		<div class="header_menu">
 
 				<div class="header_menu_res">

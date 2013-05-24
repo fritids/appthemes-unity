@@ -1,0 +1,3221 @@
+# Copyright (C) 2012 AppThemes
+# This file is distributed under the same license as the Clipper package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Clipper 1.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-01-09 19:48+0100\n"
+"PO-Revision-Date: 2013-01-09 19:48+0100\n"
+"Last-Translator: AppThemes\n"
+"Language-Team: AppThemes\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_nx:1,2;_x:1,2c;_ex:1,2c;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:1,2,3c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:14
+msgid "Page Not Found"
+msgstr ""
+
+#: 404.php:18
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr ""
+
+#: archive.php:20 archive.php:22 archive.php:24 archive.php:26
+msgid "Archive for"
+msgstr ""
+
+#: archive.php:28
+msgid "Posts Tagged with"
+msgstr ""
+
+#: archive.php:30
+msgid "Author Archive"
+msgstr ""
+
+#: archive.php:32
+msgid "Archive"
+msgstr ""
+
+#: attachment.php:21
+#, php-format
+msgid "<span class=\"%1$s\">By</span> %2$s"
+msgstr ""
+
+#: attachment.php:25
+#, php-format
+msgid "View all coupons by %s"
+msgstr ""
+
+#: attachment.php:34
+#, php-format
+msgid "<span class=\"%1$s\">Uploaded</span> %2$s"
+msgstr ""
+
+#: attachment.php:45
+#, php-format
+msgid "Full size is %s pixels"
+msgstr ""
+
+#: attachment.php:48
+msgid "Link to full-size image"
+msgstr ""
+
+#: attachment.php:56
+msgid "Edit"
+msgstr ""
+
+#: attachment.php:123
+msgid "&larr; prev"
+msgstr ""
+
+#: attachment.php:123
+msgid "next &rarr;"
+msgstr ""
+
+#: attachment.php:142
+#, php-format
+msgid "Return to %s"
+msgstr ""
+
+#: attachment.php:143
+#, php-format
+msgid "&larr; Return to %s"
+msgstr ""
+
+#: author.php:26 includes/theme-actions.php:142
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: author.php:36 sidebar-user.php:51
+msgid "Member Since:"
+msgstr ""
+
+#: author.php:37 tpl-profile.php:145 includes/theme-comments.php:119
+#: includes/theme-comments.php:265
+msgid "Website:"
+msgstr ""
+
+#: author.php:38 header.php:24 loop-coupon.php:97 loop-search.php:106
+#: loop-search.php:212 sidebar-user.php:57 single-coupon.php:126
+#: includes/theme-actions.php:174 includes/theme-profile.php:19
+msgid "Twitter"
+msgstr ""
+
+#: author.php:39 header.php:20 loop-coupon.php:96 loop-search.php:105
+#: loop-search.php:211 sidebar-user.php:58 single-coupon.php:127
+#: includes/theme-actions.php:175 includes/theme-profile.php:20
+msgid "Facebook"
+msgstr ""
+
+#: author.php:44
+msgid "Description"
+msgstr ""
+
+#: author.php:49
+msgid "Latest Coupons"
+msgstr ""
+
+#: author.php:69
+msgid "No coupons yet."
+msgstr ""
+
+#: author.php:79
+msgid "Recent Articles"
+msgstr ""
+
+#: author.php:99
+msgid "No articles yet."
+msgstr ""
+
+#: comments-mini.php:5 comments.php:5
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: comments-mini.php:10
+msgid ""
+"This post is password protected. Enter the password to view the comments."
+msgstr ""
+
+#: comments.php:9
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:32 includes/theme-comments.php:236
+msgid "No Responses"
+msgstr ""
+
+#: comments.php:32 includes/theme-comments.php:236
+msgid "One Response"
+msgstr ""
+
+#: comments.php:32 includes/theme-comments.php:236
+msgid "% Responses"
+msgstr ""
+
+#: comments.php:32 includes/theme-comments.php:236
+msgid "to"
+msgstr ""
+
+#: comments.php:79
+msgid "Trackbacks/Pingbacks"
+msgstr ""
+
+#: comments.php:121 comments.php:180
+#, php-format
+msgid "One Response to %2$s"
+msgid_plural "%1$s Responses to %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:130
+msgid "Sorry, we are no longer accepting new comments at this time."
+msgstr ""
+
+#: featured.php:24
+msgid "prev"
+msgstr ""
+
+#: featured.php:54
+msgid "next"
+msgstr ""
+
+#: featured.php:68 examples/clipper-child/index.php:32
+msgid "Featured Coupons"
+msgstr ""
+
+#: footer.php:15
+msgid "Widgetized Area"
+msgstr ""
+
+#: footer.php:16
+msgid ""
+"The footer is active and ready for you to add some widgets via the Clipper "
+"admin panel."
+msgstr ""
+
+#: footer.php:35
+msgid "Copyright &copy;"
+msgstr ""
+
+#: footer.php:35
+msgid "Powered by"
+msgstr ""
+
+#: header.php:17
+msgid "RSS"
+msgstr ""
+
+#: index.php:15 includes/theme-functions.php:985
+msgid "New Coupons"
+msgstr ""
+
+#: index.php:17
+#, php-format
+msgid "There are currently %s active coupon"
+msgid_plural "There are currently %s active coupons"
+msgstr[0] ""
+msgstr[1] ""
+
+#: loop-coupon.php:46 loop-search.php:55
+#, php-format
+msgid "View the \"%s\" coupon page"
+msgstr ""
+
+#: loop-coupon.php:52 loop-search.php:61 loop-search.php:167
+#: loop-search.php:269
+#, php-format
+msgid "View the %s coupon page"
+msgstr ""
+
+#: loop-coupon.php:52 loop-search.php:61 loop-search.php:167
+#: loop-search.php:269
+msgid "more &rsaquo;&rsaquo;"
+msgstr ""
+
+#: loop-coupon.php:68 loop-search.php:77
+msgid "Category:"
+msgstr ""
+
+#: loop-coupon.php:69 loop-search.php:78 single-coupon.php:104
+#: tpl-edit-item.php:136 includes/theme-actions.php:115
+#: includes/theme-actions.php:316
+msgid "Tags:"
+msgstr ""
+
+#: loop-coupon.php:81 loop-search.php:90 loop-search.php:196
+msgid "Share"
+msgstr ""
+
+#: loop-coupon.php:90 loop-search.php:99 single-coupon.php:119
+msgid "coupon from"
+msgstr ""
+
+#: loop-coupon.php:95 loop-search.php:104 loop-search.php:210
+msgid "Email to Friend"
+msgstr ""
+
+#: loop-coupon.php:98 loop-search.php:107 loop-search.php:213
+#: single-coupon.php:128 includes/theme-actions.php:176
+msgid "Digg"
+msgstr ""
+
+#: loop-coupon.php:99 loop-search.php:108 loop-search.php:214
+msgid "Reddit"
+msgstr ""
+
+#: loop-coupon.php:110 loop-search.php:119 loop-search.php:225
+msgid "Comment"
+msgstr ""
+
+#: loop-coupon.php:110 loop-search.php:119 loop-search.php:225
+msgid "<span>%</span> Comments"
+msgstr ""
+
+#: loop-coupon.php:118 loop-search.php:127 loop-search.php:231
+msgid "Add a comment"
+msgstr ""
+
+#: loop-coupon.php:118 loop-search.php:127 loop-search.php:231
+msgid "Comments closed"
+msgstr ""
+
+#: loop-coupon.php:118 loop-search.php:127 loop-search.php:231
+msgid "Close comments"
+msgstr ""
+
+#: loop-coupon.php:152 loop-search.php:305
+msgid "Sorry, no coupons found"
+msgstr ""
+
+#: loop-search.php:205 includes/theme-actions.php:164
+msgid "post from"
+msgstr ""
+
+#: loop.php:49
+msgid "Continue reading &raquo;"
+msgstr ""
+
+#: loop.php:51 includes/theme-functions.php:370
+msgid "Edit Post"
+msgstr ""
+
+#: loop.php:90
+msgid "No Posts Found"
+msgstr ""
+
+#: loop.php:94
+msgid "Sorry, no posts found."
+msgstr ""
+
+#: order-checkout.php:14 order-summary.php:14
+#: includes/payments/admin/orders.php:68
+msgid "Order Summary"
+msgstr ""
+
+#: order-checkout.php:25
+msgid "Please select a method for processing your payment:"
+msgstr ""
+
+#: order-checkout.php:27 includes/theme-comments.php:130
+#: includes/theme-comments.php:276
+msgid "Submit"
+msgstr ""
+
+#: search.php:14
+#, php-format
+msgid "Search for '%s' returned %s results"
+msgstr ""
+
+#: search.php:22
+#, php-format
+msgid "Sorry, no coupons could be found for \"%s\"."
+msgstr ""
+
+#: searchform.php:1 searchform.php:13 includes/theme-search.php:73
+msgid "Search for coupon codes"
+msgstr ""
+
+#: searchform.php:15 includes/theme-widgets.php:1096
+msgid "Search"
+msgstr ""
+
+#: sidebar-user.php:18
+msgid "User Options"
+msgstr ""
+
+#: sidebar-user.php:22 includes/theme-functions.php:260
+#: includes/theme-functions.php:276
+msgid "My Dashboard"
+msgstr ""
+
+#: sidebar-user.php:23 framework/kernel/view-edit-profile.php:8
+msgid "Edit Profile"
+msgstr ""
+
+#: sidebar-user.php:24
+msgid "WordPress Admin"
+msgstr ""
+
+#: sidebar-user.php:25
+msgid "Log Out"
+msgstr ""
+
+#: sidebar-user.php:44
+msgid "Account Information"
+msgstr ""
+
+#: sidebar-user.php:52
+msgid "Last Login:"
+msgstr ""
+
+#: sidebar-user.php:57 sidebar-user.php:58 sidebar-user.php:59
+msgid "N/A"
+msgstr ""
+
+#: sidebar-user.php:78
+msgid "Account Statistics"
+msgstr ""
+
+#: sidebar-user.php:92
+msgid "Live Coupons:"
+msgstr ""
+
+#: sidebar-user.php:93
+msgid "Pending Coupons:"
+msgstr ""
+
+#: sidebar-user.php:94
+msgid "Offline Coupons:"
+msgstr ""
+
+#: sidebar-user.php:95
+msgid "Total Coupons:"
+msgstr ""
+
+#: single-coupon.php:52
+msgid " - Expires: "
+msgstr ""
+
+#: single-coupon.php:57 includes/theme-actions.php:38
+msgid "0 Comments"
+msgstr ""
+
+#: single-coupon.php:57 includes/theme-actions.php:38
+#: includes/theme-comments.php:161
+msgid "1 Comment"
+msgstr ""
+
+#: single-coupon.php:57 includes/theme-actions.php:38
+#: includes/theme-comments.php:162
+msgid "% Comments"
+msgstr ""
+
+#: single-coupon.php:88
+msgid "Coupon Details"
+msgstr ""
+
+#: single-coupon.php:104 includes/theme-actions.php:115
+#: includes/theme-widgets.php:777
+msgid "None"
+msgstr ""
+
+#: single-coupon.php:116 includes/theme-actions.php:170
+msgid "Leave a comment"
+msgstr ""
+
+#: single-coupon.php:125
+msgid "Coupon Comments RSS"
+msgstr ""
+
+#: single-coupon.php:162
+msgid "Sorry, no coupons yet."
+msgstr ""
+
+#: taxonomy-coupon_category.php:17
+msgid "Coupon Category RSS"
+msgstr ""
+
+#: taxonomy-coupon_category.php:18
+#, php-format
+msgid "Coupons in the \"%s\" category"
+msgstr ""
+
+#: taxonomy-coupon_category.php:45 taxonomy-coupon_tag.php:45
+#: taxonomy-coupon_type.php:45 taxonomy-stores.php:62
+msgid "Active Coupons"
+msgstr ""
+
+#: taxonomy-coupon_category.php:59 taxonomy-coupon_tag.php:59
+#: taxonomy-coupon_type.php:59 taxonomy-stores.php:76
+#, php-format
+msgid "Currently %s active coupon"
+msgid_plural "Currently %s active coupons"
+msgstr[0] ""
+msgstr[1] ""
+
+#: taxonomy-coupon_category.php:87 taxonomy-coupon_tag.php:87
+#: taxonomy-coupon_type.php:87 taxonomy-stores.php:104
+msgid "Unreliable Coupons"
+msgstr ""
+
+#: taxonomy-coupon_category.php:101 taxonomy-coupon_tag.php:101
+#: taxonomy-coupon_type.php:101 taxonomy-stores.php:118
+#, php-format
+msgid "Currently %s unreliable coupon"
+msgid_plural "Currently %s unreliable coupons"
+msgstr[0] ""
+msgstr[1] ""
+
+#: taxonomy-coupon_tag.php:17
+msgid "Coupon Tag RSS"
+msgstr ""
+
+#: taxonomy-coupon_tag.php:18
+#, php-format
+msgid "Coupons tagged with \"%s\""
+msgstr ""
+
+#: taxonomy-coupon_type.php:17
+msgid "Coupon Type RSS"
+msgstr ""
+
+#: taxonomy-coupon_type.php:18
+#, php-format
+msgid "Coupon Type: %s"
+msgstr ""
+
+#: taxonomy-stores.php:27
+msgid "Store RSS"
+msgstr ""
+
+#: tpl-coupon-cats.php:35
+msgid "Sorry, but no coupon categories were found."
+msgstr ""
+
+#: tpl-coupon-cats.php:54
+msgid "Browse by Coupon Category"
+msgstr ""
+
+#: tpl-dashboard.php:23
+#, php-format
+msgid "%s's Dashboard"
+msgstr ""
+
+#: tpl-dashboard.php:29
+msgid ""
+"Below you will find a listing of all your submitted coupons. Click on one of "
+"the options to perform a specific task. If you have any questions, please "
+"contact the site administrator."
+msgstr ""
+
+#: tpl-dashboard.php:35
+msgid "Title"
+msgstr ""
+
+#: tpl-dashboard.php:36
+msgid "Views"
+msgstr ""
+
+#: tpl-dashboard.php:37 includes/payments/admin/orders.php:148
+#: includes/reports/reports.php:102
+msgid "Status"
+msgstr ""
+
+#: tpl-dashboard.php:38 includes/reports/reports-main.php:723
+msgid "Options"
+msgstr ""
+
+#: tpl-dashboard.php:69
+msgid "Live"
+msgstr ""
+
+#: tpl-dashboard.php:72
+msgid "Pause"
+msgstr ""
+
+#: tpl-dashboard.php:80
+msgid "Awaiting payment"
+msgstr ""
+
+#: tpl-dashboard.php:87
+msgid "Awaiting approval"
+msgstr ""
+
+#: tpl-dashboard.php:102
+msgid "Ended"
+msgstr ""
+
+#: tpl-dashboard.php:110
+msgid "Offline"
+msgstr ""
+
+#: tpl-dashboard.php:113
+msgid "Restart"
+msgstr ""
+
+#: tpl-dashboard.php:152
+msgid "Pay now"
+msgstr ""
+
+#: tpl-dashboard.php:158
+msgid "Relist Coupon"
+msgstr ""
+
+#: tpl-dashboard.php:158
+msgid "Relist"
+msgstr ""
+
+#: tpl-dashboard.php:164 tpl-dashboard.php:165
+#: includes/theme-functions.php:373
+msgid "Edit Coupon"
+msgstr ""
+
+#: tpl-dashboard.php:169 tpl-dashboard.php:170 tpl-dashboard.php:180
+msgid "Delete Coupon"
+msgstr ""
+
+#: tpl-dashboard.php:180 framework/app-plupload/app-plupload.php:79
+msgid "Delete"
+msgstr ""
+
+#: tpl-dashboard.php:198
+msgid "Are you sure you want to delete this coupon?"
+msgstr ""
+
+#: tpl-dashboard.php:207
+msgid "You currently have no coupons."
+msgstr ""
+
+#: tpl-edit-item.php:56
+msgid "Edit Your Coupon"
+msgstr ""
+
+#: tpl-edit-item.php:62
+msgid ""
+"Edit the fields below and click save to update your coupon. Your changes "
+"will be updated instantly on the site."
+msgstr ""
+
+#: tpl-edit-item.php:79
+msgid "Store Name:"
+msgstr ""
+
+#: tpl-edit-item.php:84 includes/theme-actions.php:233
+msgid "Coupon Title:"
+msgstr ""
+
+#: tpl-edit-item.php:90 includes/theme-actions.php:265
+msgid "Coupon Category:"
+msgstr ""
+
+#: tpl-edit-item.php:95 includes/theme-actions.php:275
+msgid "Coupon Type:"
+msgstr ""
+
+#: tpl-edit-item.php:109 includes/theme-actions.php:289
+msgid "Coupon Code:"
+msgstr ""
+
+#: tpl-edit-item.php:115 includes/theme-actions.php:295
+msgid "Current Coupon:"
+msgstr ""
+
+#: tpl-edit-item.php:121 includes/theme-actions.php:301
+msgid "Printed Coupon:"
+msgstr ""
+
+#: tpl-edit-item.php:126 includes/theme-actions.php:306
+msgid "Destination URL:"
+msgstr ""
+
+#: tpl-edit-item.php:131 includes/theme-actions.php:311
+msgid "Expiration Date:"
+msgstr ""
+
+#: tpl-edit-item.php:138 includes/theme-actions.php:318
+msgid "Separate tags with commas"
+msgstr ""
+
+#: tpl-edit-item.php:142 includes/theme-widgets.php:1063
+msgid "Description:"
+msgstr ""
+
+#: tpl-edit-item.php:153
+msgid "Update Coupon &raquo;"
+msgstr ""
+
+#: tpl-edit-item.php:174
+msgid ""
+"You have entered an invalid coupon id or do not have permission to edit that "
+"coupon."
+msgstr ""
+
+#: tpl-login.php:34 tpl-login.php:68 framework/includes/views-login.php:58
+#: framework/templates/form-login.php:20 includes/theme-functions.php:278
+msgid "Login"
+msgstr ""
+
+#: tpl-login.php:42
+msgid "Complete the fields below to login."
+msgstr ""
+
+#: tpl-login.php:58 tpl-profile.php:99 tpl-registration.php:68
+#: framework/templates/form-login.php:7
+#: framework/templates/form-registration.php:8
+msgid "Username:"
+msgstr ""
+
+#: tpl-login.php:63 tpl-registration.php:79
+#: framework/templates/form-login.php:14
+#: framework/templates/form-registration.php:22
+msgid "Password:"
+msgstr ""
+
+#: tpl-login.php:75 framework/templates/form-login.php:27
+msgid "Remember me"
+msgstr ""
+
+#: tpl-login.php:79
+msgid "Password Lost and Found"
+msgstr ""
+
+#: tpl-login.php:79 framework/templates/form-login.php:31
+msgid "Lost your password?"
+msgstr ""
+
+#: tpl-password-recovery.php:33 framework/includes/views-login.php:190
+msgid "Password Recovery"
+msgstr ""
+
+#: tpl-password-recovery.php:41
+#: framework/templates/form-password-recovery.php:3
+msgid ""
+"Please enter your username or email address. A new password will be emailed "
+"to you."
+msgstr ""
+
+#: tpl-password-recovery.php:57
+#: framework/templates/form-password-recovery.php:9
+msgid "Username or Email:"
+msgstr ""
+
+#: tpl-password-recovery.php:62 tpl-password-reset.php:53
+#: framework/templates/form-password-recovery.php:17
+#: framework/templates/form-password-reset.php:23
+msgid "Reset Password"
+msgstr ""
+
+#: tpl-password-reset.php:17 framework/includes/views-login.php:322
+msgid "Password Reset"
+msgstr ""
+
+#: tpl-password-reset.php:25 framework/templates/form-password-reset.php:2
+msgid "Enter your new password below."
+msgstr ""
+
+#: tpl-password-reset.php:43 framework/templates/form-password-reset.php:8
+msgid "New password"
+msgstr ""
+
+#: tpl-password-reset.php:48 framework/templates/form-password-reset.php:13
+msgid "Confirm new password"
+msgstr ""
+
+#: tpl-password-reset.php:58 tpl-profile.php:51 tpl-profile.php:182
+#: tpl-registration.php:89 framework/templates/form-password-reset.php:18
+#: framework/templates/form-registration.php:35
+msgid "Strength indicator"
+msgstr ""
+
+#: tpl-password-reset.php:59 tpl-registration.php:90
+#: framework/templates/form-password-reset.php:19
+#: framework/templates/form-registration.php:36
+msgid ""
+"Hint: The password should be at least seven characters long. To make it "
+"stronger, use upper and lower case letters, numbers and symbols like ! \" ? "
+"$ % ^ &amp; )."
+msgstr ""
+
+#: tpl-profile.php:52
+msgid "Very weak"
+msgstr ""
+
+#: tpl-profile.php:53
+msgid "Weak"
+msgstr ""
+
+#: tpl-profile.php:54
+msgid "Medium"
+msgstr ""
+
+#: tpl-profile.php:55
+msgid "Strong"
+msgstr ""
+
+#: tpl-profile.php:56
+msgid "Mismatch"
+msgstr ""
+
+#: tpl-profile.php:76
+#, php-format
+msgid "%s's Profile"
+msgstr ""
+
+#: tpl-profile.php:82
+msgid "Update your user profile below."
+msgstr ""
+
+#: tpl-profile.php:104
+msgid "First Name:"
+msgstr ""
+
+#: tpl-profile.php:108
+msgid "Last Name:"
+msgstr ""
+
+#: tpl-profile.php:112
+msgid "Nickname:"
+msgstr ""
+
+#: tpl-profile.php:116
+msgid "Display Name:"
+msgstr ""
+
+#: tpl-profile.php:139 tpl-registration.php:73
+#: framework/templates/form-registration.php:15
+#: includes/theme-comments.php:114 includes/theme-comments.php:260
+msgid "Email:"
+msgstr ""
+
+#: tpl-profile.php:151
+msgid "About Me:"
+msgstr ""
+
+#: tpl-profile.php:169
+msgid "New Password:"
+msgstr ""
+
+#: tpl-profile.php:171
+msgid "Leave this field blank unless you would like to change your password."
+msgstr ""
+
+#: tpl-profile.php:175 tpl-registration.php:84
+#: framework/templates/form-registration.php:29
+msgid "Password Again:"
+msgstr ""
+
+#: tpl-profile.php:177
+msgid "Type your new password again."
+msgstr ""
+
+#: tpl-profile.php:183
+msgid "Your password should be at least seven characters long."
+msgstr ""
+
+#: tpl-profile.php:189
+msgid "Update Profile &raquo;"
+msgstr ""
+
+#: tpl-registration.php:42 tpl-registration.php:103
+#: framework/includes/views-login.php:437 framework/kernel/functions.php:118
+#: framework/templates/form-registration.php:43
+#: includes/theme-functions.php:256 includes/theme-functions.php:278
+msgid "Register"
+msgstr ""
+
+#: tpl-registration.php:50
+msgid "Complete the fields below to become a member."
+msgstr ""
+
+#: tpl-registration.php:119
+msgid "User registration has been disabled."
+msgstr ""
+
+#: tpl-stores.php:48
+msgid "Sorry, but no stores were found."
+msgstr ""
+
+#: tpl-stores.php:67
+msgid "Browse by Store"
+msgstr ""
+
+#: examples/clipper-child/index.php:16
+#, php-format
+msgid "There are currently %s featured coupon"
+msgid_plural "There are currently %s featured coupons"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/admin/class-dashboard.php:19
+msgid "Latest News"
+msgstr ""
+
+#: framework/admin/class-dashboard.php:20
+msgid "Latest Tweets"
+msgstr ""
+
+#: framework/admin/class-dashboard.php:21
+msgid "Tutorials"
+msgstr ""
+
+#: framework/admin/class-dashboard.php:22
+msgid "From the Marketplace"
+msgstr ""
+
+#: framework/admin/class-dashboard.php:61 includes/views.php:208
+msgid "Dashboard"
+msgstr ""
+
+#: framework/admin/class-tabs-page.php:184 framework/scb/AdminPage.php:185
+#: framework/scb/AdminPage.php:196 includes/reports/reports-main.php:744
+msgid "Save Changes"
+msgstr ""
+
+#: framework/admin/class-tabs-page.php:204
+#: includes/appthemes-functions.php:125
+msgid "Help"
+msgstr ""
+
+#: framework/admin/importer.php:67
+msgid "CSV Importer"
+msgstr ""
+
+#: framework/admin/importer.php:68
+msgid "Importer"
+msgstr ""
+
+#: framework/admin/importer.php:93
+msgid ""
+"Below you will find a tool which allows you to import content from other "
+"systems via a CSV (comma-separated values) file, which can be edited using a "
+"program like Excel. Note that the file must be in the correct format for the "
+"import tool to work. You will find an example .csv file in the \"examples\" "
+"theme folder."
+msgstr ""
+
+#: framework/admin/importer.php:94
+msgid "Choose a CSV file to upload, then click \"Upload file and import\"."
+msgstr ""
+
+#: framework/admin/importer.php:104
+msgid ""
+"Before you can upload your import file, you will need to fix the following "
+"error:"
+msgstr ""
+
+#: framework/admin/importer.php:110
+msgid "Choose a file from your computer:"
+msgstr ""
+
+#: framework/admin/importer.php:110
+#, php-format
+msgid "Maximum size: %s"
+msgstr ""
+
+#: framework/admin/importer.php:118
+msgid "Upload file and import"
+msgstr ""
+
+#: framework/admin/importer.php:130
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: framework/admin/importer.php:142
+msgid "The file could not be processed."
+msgstr ""
+
+#: framework/admin/importer.php:144
+#, php-format
+msgid "Imported %s items."
+msgstr ""
+
+#: framework/admin/importer.php:372
+msgid "Invalid file type"
+msgstr ""
+
+#: framework/admin/importer.php:417
+msgid "Remote server did not respond"
+msgstr ""
+
+#: framework/admin/importer.php:423
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: framework/admin/importer.php:430
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: framework/admin/importer.php:435
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: framework/admin/importer.php:441
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: framework/admin/versions.php:49
+#, php-format
+msgid "Successfully updated to version %s."
+msgstr ""
+
+#: framework/app-plupload/app-plupload.php:32
+msgid "Images"
+msgstr ""
+
+#: framework/app-plupload/app-plupload.php:51
+msgid "Add Image"
+msgstr ""
+
+#: framework/app-plupload/app-plupload.php:52
+#, php-format
+msgid "You are allowed to upload %s file(s)."
+msgstr ""
+
+#: framework/app-plupload/app-plupload.php:52
+#, php-format
+msgid "Maximum file size: %s."
+msgstr ""
+
+#: framework/app-plupload/app-plupload.php:75
+msgid "Change Title"
+msgstr ""
+
+#: framework/app-plupload/app-plupload.php:102
+msgid "Are you sure?"
+msgstr ""
+
+#: framework/app-plupload/app-plupload.php:115
+msgid "Allowed Files"
+msgstr ""
+
+#: framework/app-plupload/app-plupload.php:218
+msgid "Your listing images are now being processed..."
+msgstr ""
+
+#: framework/app-plupload/app-plupload.php:234
+#, php-format
+msgid "Image number %1$d of %2$s has been processed."
+msgstr ""
+
+#: framework/app-plupload/app-plupload.php:250
+#, php-format
+msgid ""
+"You are using the flash uploader. Problems? Try the <a href=\"%s\">browser "
+"uploader</a> instead."
+msgstr ""
+
+#: framework/includes/stats.php:17 includes/appthemes-functions.php:168
+msgid "total views"
+msgstr ""
+
+#: framework/includes/stats.php:17 includes/appthemes-functions.php:168
+msgid "today"
+msgstr ""
+
+#: framework/includes/stats.php:19
+msgid "No views yet"
+msgstr ""
+
+#: framework/includes/views-login.php:147
+msgid ""
+"Cookies are blocked or not supported by your browser. You must enable "
+"cookies to continue."
+msgstr ""
+
+#: framework/includes/views-login.php:151
+msgid "You are now logged out."
+msgstr ""
+
+#: framework/includes/views-login.php:154
+msgid "User registration is currently not allowed."
+msgstr ""
+
+#: framework/includes/views-login.php:157
+msgid "Check your email for the confirmation link."
+msgstr ""
+
+#: framework/includes/views-login.php:160
+msgid "Check your email for your new password."
+msgstr ""
+
+#: framework/includes/views-login.php:163
+msgid "Registration complete. Please check your e-mail."
+msgstr ""
+
+#: framework/includes/views-login.php:165
+msgid "Your password has been reset. Please login."
+msgstr ""
+
+#: framework/includes/views-login.php:223
+msgid "Sorry, that key does not appear to be valid. Please try again."
+msgstr ""
+
+#: framework/includes/views-login.php:242
+msgid "<strong>ERROR</strong>: Enter a username or e-mail address."
+msgstr ""
+
+#: framework/includes/views-login.php:246
+msgid ""
+"<strong>ERROR</strong>: There is no user registered with that email address."
+msgstr ""
+
+#: framework/includes/views-login.php:258
+msgid "<strong>ERROR</strong>: Invalid username or e-mail."
+msgstr ""
+
+#: framework/includes/views-login.php:272
+msgid "Password reset is not allowed for this user"
+msgstr ""
+
+#: framework/includes/views-login.php:284
+msgid "Someone requested that the password be reset for the following account:"
+msgstr ""
+
+#: framework/includes/views-login.php:286 includes/theme-emails.php:261
+#: includes/theme-emails.php:299
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: framework/includes/views-login.php:287
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: framework/includes/views-login.php:288
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: framework/includes/views-login.php:300
+#, php-format
+msgid "[%s] Password Reset"
+msgstr ""
+
+#: framework/includes/views-login.php:306
+msgid "The e-mail could not be sent."
+msgstr ""
+
+#: framework/includes/views-login.php:306
+msgid "Possible reason: your host may have disabled the mail() function..."
+msgstr ""
+
+#: framework/includes/views-login.php:361
+msgid "The passwords do not match."
+msgstr ""
+
+#: framework/includes/views-login.php:377
+#: framework/includes/views-login.php:380
+#: framework/includes/views-login.php:385
+msgid "Invalid key"
+msgstr ""
+
+#: framework/includes/views-login.php:500
+msgid "<strong>ERROR</strong>: Please enter a username."
+msgstr ""
+
+#: framework/includes/views-login.php:502
+msgid ""
+"<strong>ERROR</strong>: This username is invalid because it uses illegal "
+"characters. Please enter a valid username."
+msgstr ""
+
+#: framework/includes/views-login.php:505
+msgid ""
+"<strong>ERROR</strong>: This username is already registered, please choose "
+"another one."
+msgstr ""
+
+#: framework/includes/views-login.php:510
+msgid "<strong>ERROR</strong>: Please type your e-mail address."
+msgstr ""
+
+#: framework/includes/views-login.php:512
+msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+msgstr ""
+
+#: framework/includes/views-login.php:515
+msgid ""
+"<strong>ERROR</strong>: This email is already registered, please choose "
+"another one."
+msgstr ""
+
+#: framework/includes/views-login.php:529
+msgid "<strong>ERROR</strong>: Please enter a password."
+msgstr ""
+
+#: framework/includes/views-login.php:531
+msgid "<strong>ERROR</strong>: Please enter the password twice."
+msgstr ""
+
+#: framework/includes/views-login.php:533
+msgid "<strong>ERROR</strong>: The passwords do not match."
+msgstr ""
+
+#: framework/includes/views-login.php:546
+msgid "<strong>ERROR</strong>: The reCaptcha anti-spam response was incorrect."
+msgstr ""
+
+#: framework/includes/views-login.php:562
+#, php-format
+msgid ""
+"<strong>ERROR</strong>: Couldn&#39;t register you... please contact the <a "
+"href=\"mailto:%s\">webmaster</a> !"
+msgstr ""
+
+#: framework/includes/views-login.php:611
+msgid "The default WordPress login page is still accessible."
+msgstr ""
+
+#: framework/includes/views-login.php:612
+#, php-format
+msgid ""
+"After you ensure that permalinks on your site are working correctly and you "
+"are not using any \"maintenance mode\" plugins, please disable it in your <a "
+"href=\"%s\">theme settings</a>."
+msgstr ""
+
+#: framework/kernel/breadcrumb-trail.php:61
+msgid "Browse:"
+msgstr ""
+
+#: framework/kernel/breadcrumb-trail.php:64
+msgid "Home"
+msgstr ""
+
+#: framework/kernel/breadcrumb-trail.php:316
+msgid "g:i a"
+msgstr ""
+
+#: framework/kernel/breadcrumb-trail.php:319
+#, php-format
+msgid "Minute %1$s"
+msgstr ""
+
+#: framework/kernel/breadcrumb-trail.php:319
+msgid "i"
+msgstr ""
+
+#: framework/kernel/breadcrumb-trail.php:322
+msgid "g a"
+msgstr ""
+
+#: framework/kernel/breadcrumb-trail.php:333
+#: framework/kernel/breadcrumb-trail.php:339
+#: framework/kernel/breadcrumb-trail.php:344
+#: framework/kernel/breadcrumb-trail.php:349
+#: framework/kernel/breadcrumb-trail.php:414
+msgid "Y"
+msgstr ""
+
+#: framework/kernel/breadcrumb-trail.php:334
+#: framework/kernel/breadcrumb-trail.php:345
+#: framework/kernel/breadcrumb-trail.php:418
+msgid "F"
+msgstr ""
+
+#: framework/kernel/breadcrumb-trail.php:335
+#: framework/kernel/breadcrumb-trail.php:422
+msgid "d"
+msgstr ""
+
+#: framework/kernel/breadcrumb-trail.php:340
+#, php-format
+msgid "Week %1$s"
+msgstr ""
+
+#: framework/kernel/breadcrumb-trail.php:340
+msgid "W"
+msgstr ""
+
+#: framework/kernel/breadcrumb-trail.php:356
+#, php-format
+msgid "Search results for &quot;%1$s&quot;"
+msgstr ""
+
+#: framework/kernel/breadcrumb-trail.php:360
+msgid "404 Not Found"
+msgstr ""
+
+#: framework/kernel/breadcrumb-trail.php:418
+msgid "F Y"
+msgstr ""
+
+#: framework/kernel/breadcrumb-trail.php:422
+msgid "F j, Y"
+msgstr ""
+
+#: framework/kernel/functions.php:84
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: framework/kernel/functions.php:111
+msgid "Lost password?"
+msgstr ""
+
+#: framework/kernel/functions.php:294
+msgid "No categories"
+msgstr ""
+
+#: framework/kernel/view-edit-profile.php:46
+msgid "Your profile has been updated."
+msgstr ""
+
+#: framework/p2p-core/extra.php:16
+msgid "Posts 2 Posts"
+msgstr ""
+
+#: framework/p2p-core/extra.php:17
+msgid "A list of posts connected to the current post"
+msgstr ""
+
+#: framework/p2p-core/extra.php:34 includes/theme-widgets.php:60
+#: includes/theme-widgets.php:132 includes/theme-widgets.php:184
+#: includes/theme-widgets.php:300 includes/theme-widgets.php:613
+#: includes/theme-widgets.php:747 includes/theme-widgets.php:866
+#: includes/theme-widgets.php:936 includes/theme-widgets.php:1013
+#: includes/theme-widgets.php:1062 includes/theme-widgets.php:1122
+msgid "Title:"
+msgstr ""
+
+#: framework/p2p-core/extra.php:41
+msgid "Connection type:"
+msgstr ""
+
+#: framework/p2p-core/extra.php:46
+msgid "Connection listing:"
+msgstr ""
+
+#: framework/p2p-core/extra.php:52
+msgid "connected"
+msgstr ""
+
+#: framework/p2p-core/extra.php:53
+msgid "related"
+msgstr ""
+
+#: framework/p2p-core/side.php:227
+msgid "Users"
+msgstr ""
+
+#: framework/p2p-core/side.php:236
+msgid "User"
+msgstr ""
+
+#: framework/p2p-core/side.php:237
+msgid "Search Users"
+msgstr ""
+
+#: framework/p2p-core/side.php:238
+msgid "No users found."
+msgstr ""
+
+#: framework/p2p-core/type.php:102
+msgid "Create connections"
+msgstr ""
+
+#: framework/p2p-core/type.php:120
+#, php-format
+msgid "Connected %s"
+msgstr ""
+
+#: framework/scb/AdminPage.php:172
+msgid "Settings <strong>saved</strong>."
+msgstr ""
+
+#: framework/scb/AdminPage.php:346 includes/payments/admin/settings.php:17
+#: includes/reports/reports-main.php:664
+msgid "Settings"
+msgstr ""
+
+#: framework/templates/form-registration.php:3
+msgid "Complete the fields below to register."
+msgstr ""
+
+#: includes/appthemes-functions.php:118
+msgid "Type the two words:"
+msgstr ""
+
+#: includes/appthemes-functions.php:119
+msgid "Type what you hear:"
+msgstr ""
+
+#: includes/appthemes-functions.php:120
+msgid "Play sound again"
+msgstr ""
+
+#: includes/appthemes-functions.php:121
+msgid "Download sound as MP3"
+msgstr ""
+
+#: includes/appthemes-functions.php:122
+msgid "Visual challenge"
+msgstr ""
+
+#: includes/appthemes-functions.php:123
+msgid "Audio challenge"
+msgstr ""
+
+#: includes/appthemes-functions.php:124
+msgid "Get two new words"
+msgstr ""
+
+#: includes/appthemes-functions.php:126
+msgid "Incorrect. Try again."
+msgstr ""
+
+#: includes/appthemes-functions.php:154 includes/payments/admin/admin.php:199
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: includes/appthemes-functions.php:170
+msgid "no views yet"
+msgstr ""
+
+#: includes/appthemes-functions.php:528 includes/appthemes-functions.php:530
+msgid "Perhaps you meant"
+msgstr ""
+
+#: includes/appthemes-functions.php:545
+msgid "Page %CURRENT_PAGE% of %TOTAL_PAGES%"
+msgstr ""
+
+#: includes/appthemes-functions.php:548
+msgid "&lsaquo;&lsaquo; First"
+msgstr ""
+
+#: includes/appthemes-functions.php:549
+msgid "Last &rsaquo;&rsaquo;"
+msgstr ""
+
+#: includes/appthemes-functions.php:684
+#, php-format
+msgid "Table '%s' has been deleted."
+msgstr ""
+
+#: includes/appthemes-functions.php:700
+msgid "All theme options have been deleted."
+msgstr ""
+
+#: includes/theme-actions.php:53 includes/theme-actions.php:76
+msgid "Top"
+msgstr ""
+
+#: includes/theme-actions.php:97 includes/theme-functions.php:450
+#: includes/theme-widgets.php:1036 includes/theme-widgets.php:1056
+msgid "Share a Coupon"
+msgstr ""
+
+#: includes/theme-actions.php:98 includes/theme-widgets.php:1056
+msgid "Spread the Savings with Everyone!"
+msgstr ""
+
+#: includes/theme-actions.php:173
+msgid "Post Comments RSS"
+msgstr ""
+
+#: includes/theme-actions.php:238
+msgid "Store:"
+msgstr ""
+
+#: includes/theme-actions.php:240 includes/theme-actions.php:267
+#: includes/theme-actions.php:277
+msgid "-- Select One --"
+msgstr ""
+
+#: includes/theme-actions.php:241
+msgid "Add New Store"
+msgstr ""
+
+#: includes/theme-actions.php:255
+msgid "New Store Name:"
+msgstr ""
+
+#: includes/theme-actions.php:260
+msgid "New Store URL:"
+msgstr ""
+
+#: includes/theme-actions.php:322
+msgid "Full Description:"
+msgstr ""
+
+#: includes/theme-actions.php:339 includes/theme-payments.php:78
+msgid "Continue"
+msgstr ""
+
+#: includes/theme-actions.php:339
+msgid "Share It!"
+msgstr ""
+
+#: includes/theme-actions.php:403
+msgid "Sub Categories"
+msgstr ""
+
+#: includes/theme-actions.php:457
+msgid "Related Stores"
+msgstr ""
+
+#: includes/theme-actions.php:608
+msgid "Sponsored Ads"
+msgstr ""
+
+#: includes/theme-actions.php:656
+msgid "Listing Fee"
+msgstr ""
+
+#: includes/theme-actions.php:657
+#, php-format
+msgid "%s for submitting coupon."
+msgstr ""
+
+#: includes/theme-comments.php:47
+msgid "Reply"
+msgstr ""
+
+#: includes/theme-comments.php:69
+msgid "(Edit)"
+msgstr ""
+
+#: includes/theme-comments.php:87
+msgid "Click here to cancel reply"
+msgstr ""
+
+#: includes/theme-comments.php:93 includes/theme-comments.php:244
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: includes/theme-comments.php:99 includes/theme-comments.php:250
+#: includes/theme-functions.php:1107
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>."
+msgstr ""
+
+#: includes/theme-comments.php:99 includes/theme-comments.php:250
+#: includes/theme-functions.php:1107
+msgid "Log out &raquo;"
+msgstr ""
+
+#: includes/theme-comments.php:109 includes/theme-comments.php:255
+#: includes/theme-widgets.php:313 includes/theme-widgets.php:320
+#: includes/theme-widgets.php:327 includes/theme-widgets.php:334
+#: includes/theme-widgets.php:341 includes/theme-widgets.php:348
+msgid "Name:"
+msgstr ""
+
+#: includes/theme-comments.php:160
+msgid "No Comments"
+msgstr ""
+
+#: includes/theme-comments.php:163
+msgid "Comments Off"
+msgstr ""
+
+#: includes/theme-comments.php:174
+msgid "Enter your password to view comments."
+msgstr ""
+
+#: includes/theme-comments.php:188
+#, php-format
+msgid "Comment on %s"
+msgstr ""
+
+#: includes/theme-comments.php:331
+msgid "Sorry, comments are closed for this item."
+msgstr ""
+
+#: includes/theme-comments.php:366
+msgid "Sorry, you must be logged in to post a comment."
+msgstr ""
+
+#: includes/theme-comments.php:373
+msgid "Error: please fill the required fields (name, email)."
+msgstr ""
+
+#: includes/theme-comments.php:375
+msgid "Error: please enter a valid email address."
+msgstr ""
+
+#: includes/theme-comments.php:379
+msgid "Error: please type a comment."
+msgstr ""
+
+#: includes/theme-comments.php:407 includes/theme-comments.php:432
+msgid "Posted by"
+msgstr ""
+
+#: includes/theme-emails.php:39
+msgid "New Coupon Submission"
+msgstr ""
+
+#: includes/theme-emails.php:40 includes/theme-emails.php:163
+#: includes/reports/report.class.php:188
+#, php-format
+msgid "%s Admin"
+msgstr ""
+
+#: includes/theme-emails.php:42 includes/theme-emails.php:369
+#: includes/reports/report.class.php:195
+msgid "Dear Admin,"
+msgstr ""
+
+#: includes/theme-emails.php:43
+#, php-format
+msgid "The following coupon has just been submitted on your %s website."
+msgstr ""
+
+#: includes/theme-emails.php:44 includes/reports/report.class.php:197
+msgid "Details"
+msgstr ""
+
+#: includes/theme-emails.php:46
+msgid "Title: "
+msgstr ""
+
+#: includes/theme-emails.php:47
+msgid "Coupon Code: "
+msgstr ""
+
+#: includes/theme-emails.php:48
+msgid "Category: "
+msgstr ""
+
+#: includes/theme-emails.php:49
+msgid "Store: "
+msgstr ""
+
+#: includes/theme-emails.php:50
+msgid "Author: "
+msgstr ""
+
+#: includes/theme-emails.php:51
+msgid "Description: "
+msgstr ""
+
+#: includes/theme-emails.php:53
+msgid "Preview: "
+msgstr ""
+
+#: includes/theme-emails.php:54 includes/reports/report.class.php:200
+#, php-format
+msgid "Edit: %s"
+msgstr ""
+
+#: includes/theme-emails.php:55 includes/theme-emails.php:170
+#: includes/theme-emails.php:227 includes/theme-functions.php:1231
+#: includes/reports/report.class.php:203
+msgid "Regards,"
+msgstr ""
+
+#: includes/theme-emails.php:162
+msgid "Your Coupon Has Been Approved"
+msgstr ""
+
+#: includes/theme-emails.php:165 includes/theme-emails.php:221
+#, php-format
+msgid "Hi %s,"
+msgstr ""
+
+#: includes/theme-emails.php:166
+#, php-format
+msgid "Your coupon, \"%s\" has been approved and is now live on our site."
+msgstr ""
+
+#: includes/theme-emails.php:168 includes/theme-emails.php:225
+msgid "You can view your coupon by clicking on the following link:"
+msgstr ""
+
+#: includes/theme-emails.php:171 includes/theme-emails.php:228
+#: includes/theme-functions.php:1232
+#, php-format
+msgid "Your %s Team"
+msgstr ""
+
+#: includes/theme-emails.php:218
+#, php-format
+msgid "Your coupon submission on %s"
+msgstr ""
+
+#: includes/theme-emails.php:222
+msgid "Thank you for your recent submission."
+msgstr ""
+
+#: includes/theme-emails.php:223
+#, php-format
+msgid "Your coupon, \"%s\" has been published and is now live on our site."
+msgstr ""
+
+#: includes/theme-emails.php:260
+#, php-format
+msgid "New user registration on your site %s:"
+msgstr ""
+
+#: includes/theme-emails.php:262
+#, php-format
+msgid "E-mail: %s"
+msgstr ""
+
+#: includes/theme-emails.php:264
+#, php-format
+msgid "[%s] New User Registration"
+msgstr ""
+
+#: includes/theme-emails.php:300
+#, php-format
+msgid "Password: %s"
+msgstr ""
+
+#: includes/theme-emails.php:303
+#, php-format
+msgid "[%s] Your username and password"
+msgstr ""
+
+#: includes/theme-emails.php:328
+#, php-format
+msgid "Hello %s,"
+msgstr ""
+
+#: includes/theme-emails.php:329
+msgid ""
+"This email confirms that you have purchased the following coupon listing:"
+msgstr ""
+
+#: includes/theme-emails.php:331 includes/theme-emails.php:374
+msgid "Order Summary:"
+msgstr ""
+
+#: includes/theme-emails.php:337
+#, php-format
+msgid "[%s] Receipt for your order"
+msgstr ""
+
+#: includes/theme-emails.php:370
+msgid "You have received payment for the following coupon listing:"
+msgstr ""
+
+#: includes/theme-emails.php:373
+msgid "Please review submitted coupon listing, and approve it."
+msgstr ""
+
+#: includes/theme-emails.php:380
+#, php-format
+msgid "[%s] Received payment for order"
+msgstr ""
+
+#: includes/theme-emails.php:397
+#, php-format
+msgid "[%s] Failed Order #%s"
+msgstr ""
+
+#: includes/theme-emails.php:400
+#, php-format
+msgid "Payment for the order #%s has failed."
+msgstr ""
+
+#: includes/theme-emails.php:401
+#, php-format
+msgid ""
+"Please <a href=\"%s\">review this order</a>, and if necessary disable "
+"assigned services."
+msgstr ""
+
+#: includes/theme-footer.php:48
+msgid "Debug Mode On"
+msgstr ""
+
+#: includes/theme-functions.php:155
+msgid "Coupon"
+msgstr ""
+
+#: includes/theme-functions.php:199
+msgid "Primary Navigation"
+msgstr ""
+
+#: includes/theme-functions.php:200
+msgid "Footer Navigation"
+msgstr ""
+
+#: includes/theme-functions.php:241
+msgid "Your email has been sent!"
+msgstr ""
+
+#: includes/theme-functions.php:242
+msgid "This coupon was successfully shared with"
+msgstr ""
+
+#: includes/theme-functions.php:243
+msgid "There was a problem sharing this coupon with"
+msgstr ""
+
+#: includes/theme-functions.php:276 includes/theme-functions.php:330
+msgid "Log out"
+msgstr ""
+
+#: includes/theme-functions.php:456
+msgid "Complete the form below to share your coupon with us."
+msgstr ""
+
+#: includes/theme-functions.php:1099
+msgid "Email to a Friend:"
+msgstr ""
+
+#: includes/theme-functions.php:1112
+msgid "Your Name:"
+msgstr ""
+
+#: includes/theme-functions.php:1117
+msgid "Your Email:"
+msgstr ""
+
+#: includes/theme-functions.php:1122
+msgid "Recipients Email:"
+msgstr ""
+
+#: includes/theme-functions.php:1127
+msgid "Your Message:"
+msgstr ""
+
+#: includes/theme-functions.php:1132
+msgid "Send Email"
+msgstr ""
+
+#: includes/theme-functions.php:1187
+msgid "Your Name"
+msgstr ""
+
+#: includes/theme-functions.php:1188
+msgid "Your Email"
+msgstr ""
+
+#: includes/theme-functions.php:1189
+msgid "Recipients"
+msgstr ""
+
+#: includes/theme-functions.php:1195
+#, php-format
+msgid "<strong>ERROR</strong>: &ldquo;%s&rdquo; is a required field."
+msgstr ""
+
+#: includes/theme-functions.php:1202
+msgid "Sorry, there was a problem."
+msgstr ""
+
+#: includes/theme-functions.php:1219
+msgid "<strong>ERROR</strong>: Please enter a valid email address."
+msgstr ""
+
+#: includes/theme-functions.php:1223
+#, php-format
+msgid "%s shared a coupon with you from %s"
+msgstr ""
+
+#: includes/theme-functions.php:1227
+msgid "Hi,"
+msgstr ""
+
+#: includes/theme-functions.php:1228
+#, php-format
+msgid "%s thought you might be interested in the following coupon."
+msgstr ""
+
+#: includes/theme-functions.php:1229
+#, php-format
+msgid "View coupon: %s"
+msgstr ""
+
+#: includes/theme-functions.php:1230
+#, php-format
+msgid "Message: %s"
+msgstr ""
+
+#: includes/theme-functions.php:1344
+msgid "No expired coupons were found."
+msgstr ""
+
+#: includes/theme-functions.php:1346
+msgid ""
+"The following coupons expired and have been taken down from your website: "
+msgstr ""
+
+#: includes/theme-functions.php:1348
+msgid "Your cron job has run successfully. "
+msgstr ""
+
+#: includes/theme-functions.php:1348
+msgid "Regards"
+msgstr ""
+
+#: includes/theme-functions.php:1348
+msgid "Clipper"
+msgstr ""
+
+#: includes/theme-functions.php:1353
+msgid " Clipper Coupons Expired"
+msgstr ""
+
+#: includes/theme-functions.php:1423 includes/theme-functions.php:1435
+msgid "Code:"
+msgstr ""
+
+#: includes/theme-functions.php:1426
+msgid "Click to Print"
+msgstr ""
+
+#: includes/theme-functions.php:1426
+msgid "Print Coupon"
+msgstr ""
+
+#: includes/theme-functions.php:1428
+msgid "Click to print coupon"
+msgstr ""
+
+#: includes/theme-functions.php:1438
+msgid "Show Coupon Code"
+msgstr ""
+
+#: includes/theme-functions.php:1439 includes/theme-functions.php:1441
+msgid "Click to copy &amp; open site"
+msgstr ""
+
+#: includes/theme-functions.php:1448
+msgid "Promo:"
+msgstr ""
+
+#: includes/theme-functions.php:1451 includes/theme-functions.php:1453
+msgid "Click to open site"
+msgstr ""
+
+#: includes/theme-functions.php:1451
+msgid "Click to Redeem"
+msgstr ""
+
+#: includes/theme-profile.php:27
+msgid "Enter your Twitter username without the URL."
+msgstr ""
+
+#: includes/theme-profile.php:28
+#, php-format
+msgid ""
+"Enter your Facebook username without the URL. <br />Don't have one yet? <a "
+"target='_blank' href='%s'>Get a custom URL.</a>"
+msgstr ""
+
+#: includes/theme-security.php:35
+msgid "Access Denied."
+msgstr ""
+
+#: includes/theme-security.php:41
+msgid ""
+"Access Denied. Your site administrator has blocked access to the WordPress "
+"back-office."
+msgstr ""
+
+#: includes/theme-sidebars.php:20
+msgid "Home Page Sidebar"
+msgstr ""
+
+#: includes/theme-sidebars.php:31
+msgid "Page Sidebar"
+msgstr ""
+
+#: includes/theme-sidebars.php:42
+msgid "Blog Sidebar"
+msgstr ""
+
+#: includes/theme-sidebars.php:53
+msgid "Coupon Sidebar"
+msgstr ""
+
+#: includes/theme-sidebars.php:64
+msgid "Store Sidebar"
+msgstr ""
+
+#: includes/theme-sidebars.php:75
+msgid "Submit Coupon Sidebar"
+msgstr ""
+
+#: includes/theme-sidebars.php:86
+msgid "Login Sidebar"
+msgstr ""
+
+#: includes/theme-sidebars.php:97
+msgid "User Sidebar"
+msgstr ""
+
+#: includes/theme-sidebars.php:108
+msgid "Footer"
+msgstr ""
+
+#: includes/theme-stats.php:32
+msgid " views"
+msgstr ""
+
+#: includes/theme-stats.php:36 includes/theme-stats.php:70
+msgid "No views yet."
+msgstr ""
+
+#: includes/theme-stats.php:66
+msgid "views"
+msgstr ""
+
+#: includes/theme-voting.php:225
+msgid "Votes has been reseted!"
+msgstr ""
+
+#: includes/theme-voting.php:226
+msgid "Reset Coupon Votes"
+msgstr ""
+
+#: includes/theme-voting.php:226
+msgid "Reset Votes"
+msgstr ""
+
+#: includes/theme-voting.php:236
+msgid "Thanks for your response!"
+msgstr ""
+
+#: includes/theme-voting.php:245
+msgid "Did this coupon work for you?"
+msgstr ""
+
+#: includes/theme-voting.php:284 includes/theme-voting.php:337
+msgid "success"
+msgstr ""
+
+#: includes/theme-voting.php:309
+msgid "Results:"
+msgstr ""
+
+#: includes/theme-voting.php:326
+msgid "Thanks for voting!"
+msgstr ""
+
+#: includes/theme-widgets.php:7
+msgid "Display the most commented on coupons."
+msgstr ""
+
+#: includes/theme-widgets.php:8
+msgid "Clipper Popular Coupons"
+msgstr ""
+
+#: includes/theme-widgets.php:13
+msgid "Popular Coupons"
+msgstr ""
+
+#: includes/theme-widgets.php:34
+msgid "comments"
+msgstr ""
+
+#: includes/theme-widgets.php:64
+msgid "Number of coupons to show:"
+msgstr ""
+
+#: includes/theme-widgets.php:76
+msgid "Display the most popular stores."
+msgstr ""
+
+#: includes/theme-widgets.php:77
+msgid "Clipper Popular Stores"
+msgstr ""
+
+#: includes/theme-widgets.php:83
+msgid "Popular Stores"
+msgstr ""
+
+#: includes/theme-widgets.php:108
+msgid "coupons"
+msgstr ""
+
+#: includes/theme-widgets.php:136
+msgid "Number of stores to show:"
+msgstr ""
+
+#: includes/theme-widgets.php:148
+msgid "Display the coupon categories."
+msgstr ""
+
+#: includes/theme-widgets.php:149
+msgid "Clipper Coupon Categories"
+msgstr ""
+
+#: includes/theme-widgets.php:155
+msgid "Coupon Categories"
+msgstr ""
+
+#: includes/theme-widgets.php:194
+msgid "Display The Coupons in Your Inbox Box"
+msgstr ""
+
+#: includes/theme-widgets.php:196 includes/theme-widgets.php:201
+#: includes/theme-widgets.php:265
+msgid "Coupons in Your Inbox!"
+msgstr ""
+
+#: includes/theme-widgets.php:202 includes/theme-widgets.php:266
+msgid "Receive coupons by email, subscribe now!"
+msgstr ""
+
+#: includes/theme-widgets.php:218
+msgid "Enter Email Address"
+msgstr ""
+
+#: includes/theme-widgets.php:221
+msgid "Subscribe"
+msgstr ""
+
+#: includes/theme-widgets.php:302
+msgid "Text:"
+msgstr ""
+
+#: includes/theme-widgets.php:304
+msgid "Form Post Action:"
+msgstr ""
+
+#: includes/theme-widgets.php:305
+msgid ""
+"Enter the url where the email subscribe form should post to.<br /> i.e. "
+"http://www.aweber.com/"
+msgstr ""
+
+#: includes/theme-widgets.php:309
+msgid "Advanced Options:"
+msgstr ""
+
+#: includes/theme-widgets.php:312
+msgid "Hidden Field 1:"
+msgstr ""
+
+#: includes/theme-widgets.php:315 includes/theme-widgets.php:322
+#: includes/theme-widgets.php:329 includes/theme-widgets.php:336
+#: includes/theme-widgets.php:343 includes/theme-widgets.php:350
+msgid "Value:"
+msgstr ""
+
+#: includes/theme-widgets.php:319
+msgid "Hidden Field 2:"
+msgstr ""
+
+#: includes/theme-widgets.php:326
+msgid "Hidden Field 3:"
+msgstr ""
+
+#: includes/theme-widgets.php:333
+msgid "Hidden Field 4:"
+msgstr ""
+
+#: includes/theme-widgets.php:340
+msgid "Hidden Field 5:"
+msgstr ""
+
+#: includes/theme-widgets.php:347
+msgid "Hidden Field 6:"
+msgstr ""
+
+#: includes/theme-widgets.php:362
+msgid "Display a tabbed widget for blog posts."
+msgstr ""
+
+#: includes/theme-widgets.php:363
+msgid "Clipper Tabbed Blog Widget"
+msgstr ""
+
+#: includes/theme-widgets.php:483
+msgid "Recent"
+msgstr ""
+
+#: includes/theme-widgets.php:484
+msgid "Popular"
+msgstr ""
+
+#: includes/theme-widgets.php:485 includes/reports/reports.php:111
+msgid "Comments"
+msgstr ""
+
+#: includes/theme-widgets.php:626
+msgid "This places a real-time Twitter feed in your sidebar."
+msgstr ""
+
+#: includes/theme-widgets.php:627
+msgid "Clipper Real-Time Twitter Feed"
+msgstr ""
+
+#: includes/theme-widgets.php:752
+msgid "Twitter Username:"
+msgstr ""
+
+#: includes/theme-widgets.php:757
+msgid "Twitter API Key:"
+msgstr ""
+
+#: includes/theme-widgets.php:762
+msgid "Keyword Tweets:"
+msgstr ""
+
+#: includes/theme-widgets.php:767
+msgid "Display Type:"
+msgstr ""
+
+#: includes/theme-widgets.php:769
+msgid "Show Username Tweets"
+msgstr ""
+
+#: includes/theme-widgets.php:770
+msgid "Show Keyword Tweets"
+msgstr ""
+
+#: includes/theme-widgets.php:775
+msgid "Refresh Mode:"
+msgstr ""
+
+#: includes/theme-widgets.php:778
+msgid "Real-Time Updates"
+msgstr ""
+
+#: includes/theme-widgets.php:779
+msgid "Click Button Updates"
+msgstr ""
+
+#: includes/theme-widgets.php:784
+msgid "Paging Style:"
+msgstr ""
+
+#: includes/theme-widgets.php:786
+msgid "More Button"
+msgstr ""
+
+#: includes/theme-widgets.php:787
+msgid "Next &amp; Previous Buttons"
+msgstr ""
+
+#: includes/theme-widgets.php:788
+msgid "Endless Scrolling"
+msgstr ""
+
+#: includes/theme-widgets.php:794
+msgid "Tweets Shown"
+msgstr ""
+
+#: includes/theme-widgets.php:799
+msgid "Default Language"
+msgstr ""
+
+#: includes/theme-widgets.php:804
+msgid "Show Follow Button"
+msgstr ""
+
+#: includes/theme-widgets.php:807
+msgid "Show Connect Button"
+msgstr ""
+
+#: includes/theme-widgets.php:819
+msgid ""
+"This places a Facebook page Like Box in your sidebar to attract and gain "
+"Likes from visitors."
+msgstr ""
+
+#: includes/theme-widgets.php:820
+msgid "Clipper Facebook Like Box"
+msgstr ""
+
+#: includes/theme-widgets.php:861
+msgid "Facebook Friends"
+msgstr ""
+
+#: includes/theme-widgets.php:871
+msgid "Facebook ID:"
+msgstr ""
+
+#: includes/theme-widgets.php:877
+msgid "Connections"
+msgstr ""
+
+#: includes/theme-widgets.php:882
+msgid "Width"
+msgstr ""
+
+#: includes/theme-widgets.php:887
+msgid "Height"
+msgstr ""
+
+#: includes/theme-widgets.php:899
+msgid "Your most used coupon tags in cloud format"
+msgstr ""
+
+#: includes/theme-widgets.php:900
+msgid "Clipper Coupon Tag Cloud"
+msgstr ""
+
+#: includes/theme-widgets.php:910
+msgid "Coupon Tags"
+msgstr ""
+
+#: includes/theme-widgets.php:939
+msgid "Taxonomy:"
+msgstr ""
+
+#: includes/theme-widgets.php:967
+msgid "A simple contact form designed for the footer."
+msgstr ""
+
+#: includes/theme-widgets.php:969
+msgid "Footer Contact Form"
+msgstr ""
+
+#: includes/theme-widgets.php:974
+msgid "Contact Form"
+msgstr ""
+
+#: includes/theme-widgets.php:986
+msgid "Your name"
+msgstr ""
+
+#: includes/theme-widgets.php:987
+msgid "Your email address"
+msgstr ""
+
+#: includes/theme-widgets.php:991
+msgid "Send"
+msgstr ""
+
+#: includes/theme-widgets.php:1015
+msgid "Class:"
+msgstr ""
+
+#: includes/theme-widgets.php:1017
+msgid "Post Action:"
+msgstr ""
+
+#: includes/theme-widgets.php:1030
+msgid "Share a coupon button for use in sidebar"
+msgstr ""
+
+#: includes/theme-widgets.php:1031
+msgid "Clipper Share Coupon Button"
+msgstr ""
+
+#: includes/theme-widgets.php:1073
+msgid "Display the most searched phrases."
+msgstr ""
+
+#: includes/theme-widgets.php:1074
+msgid "Clipper Popular Searches"
+msgstr ""
+
+#: includes/theme-widgets.php:1080
+msgid "Popular Searches"
+msgstr ""
+
+#: includes/theme-widgets.php:1097
+#, php-format
+msgid "%s time"
+msgid_plural "%s times"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/theme-widgets.php:1126
+msgid "Number of phrases to show:"
+msgstr ""
+
+#: includes/views.php:6
+msgid "Blog"
+msgstr ""
+
+#: includes/views.php:18
+msgid "Categories"
+msgstr ""
+
+#: includes/views.php:30
+msgid "Stores"
+msgstr ""
+
+#: includes/views.php:42
+msgid "Share Coupon"
+msgstr ""
+
+#: includes/views.php:94
+msgid "Edit Item"
+msgstr ""
+
+#: includes/views.php:113
+#: includes/forms/submit-coupon/submit-coupon-process.php:70
+msgid "Invalid coupon expiration date."
+msgstr ""
+
+#: includes/views.php:123
+#: includes/forms/submit-coupon/submit-coupon-process.php:94
+msgid "Invalid file type."
+msgstr ""
+
+#: includes/views.php:135
+#, php-format
+msgid "Error: %s"
+msgstr ""
+
+#: includes/views.php:146
+msgid "There was an error trying to update your coupon."
+msgstr ""
+
+#: includes/views.php:178
+msgid "There was an error while adding printable coupon."
+msgstr ""
+
+#: includes/views.php:199
+msgid "Your coupon has been successfully updated."
+msgstr ""
+
+#: includes/views.php:199
+msgid "Return to my dashboard"
+msgstr ""
+
+#: includes/views.php:266
+msgid "Your coupon has been paused."
+msgstr ""
+
+#: includes/views.php:268
+msgid "Your coupon has been restarted."
+msgstr ""
+
+#: includes/views.php:270
+msgid "Your coupon has been deleted."
+msgstr ""
+
+#: includes/views.php:272
+msgid "You can not relist this coupon. Invalid ID of coupon."
+msgstr ""
+
+#: includes/views.php:274
+msgid "You can not relist this coupon. Coupon is not expired."
+msgstr ""
+
+#: includes/views.php:283
+msgid "Profile"
+msgstr ""
+
+#: includes/views.php:309
+msgid ""
+"This coupon listing is currently pending and must be approved by an "
+"administrator."
+msgstr ""
+
+#: includes/forms/submit-coupon/submit-coupon-form.php:35
+msgid "Login Required"
+msgstr ""
+
+#: includes/forms/submit-coupon/submit-coupon-form.php:41
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> before submitting coupons."
+msgstr ""
+
+#: includes/forms/submit-coupon/submit-coupon-process.php:64
+msgid "Please enter a coupon title."
+msgstr ""
+
+#: includes/forms/submit-coupon/submit-coupon-process.php:67
+msgid "Please enter a coupon description."
+msgstr ""
+
+#: includes/forms/submit-coupon/submit-coupon-process.php:77
+msgid "The reCaptcha anti-spam response was incorrect."
+msgstr ""
+
+#: includes/forms/submit-coupon/submit-coupon-process.php:105
+msgid "Error: "
+msgstr ""
+
+#: includes/forms/submit-coupon/submit-coupon-process.php:156
+msgid "Error: Unable to create entry."
+msgstr ""
+
+#: includes/forms/submit-coupon/submit-coupon-process.php:299
+msgid "Error(s) Found"
+msgstr ""
+
+#: includes/forms/submit-coupon/submit-coupon-process.php:313
+#, php-format
+msgid "Please <a href=\"#\" %s>go back</a> and fix the error(s)."
+msgstr ""
+
+#: includes/forms/submit-coupon/submit-coupon-process.php:325
+#: includes/payments/admin/admin.php:89
+msgid "Payment"
+msgstr ""
+
+#: includes/forms/submit-coupon/submit-coupon-process.php:331
+msgid "Please wait while we redirect you to our payment page."
+msgstr ""
+
+#: includes/forms/submit-coupon/submit-coupon-process.php:332
+msgid ""
+"(Click the button below if you are not automatically redirected within 5 "
+"seconds.)"
+msgstr ""
+
+#: includes/forms/submit-coupon/submit-coupon-process.php:334
+msgid "Continue to Payment"
+msgstr ""
+
+#: includes/forms/submit-coupon/submit-coupon-process.php:346
+msgid "Thanks for Sharing!"
+msgstr ""
+
+#: includes/forms/submit-coupon/submit-coupon-process.php:352
+msgid "Your coupon has successfully been submitted."
+msgstr ""
+
+#: includes/payments/order-class.php:21
+#: includes/payments/order-draft-class.php:43
+msgid "Transaction"
+msgstr ""
+
+#: includes/payments/order-class.php:25
+msgid "Transaction Data"
+msgstr ""
+
+#: includes/payments/order-class.php:417
+msgid "Pending"
+msgstr ""
+
+#: includes/payments/order-class.php:418
+msgid "Failed"
+msgstr ""
+
+#: includes/payments/order-class.php:419
+msgid "Completed"
+msgstr ""
+
+#: includes/payments/order-class.php:420
+msgid "Activated"
+msgstr ""
+
+#: includes/payments/order-functions.php:25
+#: includes/payments/order-functions.php:36
+#: includes/payments/admin/admin.php:28
+msgid "Orders"
+msgstr ""
+
+#: includes/payments/order-functions.php:26
+#: includes/payments/admin/admin.php:84
+msgid "Order"
+msgstr ""
+
+#: includes/payments/order-functions.php:27
+msgid "Add New"
+msgstr ""
+
+#: includes/payments/order-functions.php:28
+msgid "Add New Order"
+msgstr ""
+
+#: includes/payments/order-functions.php:29
+msgid "Edit Order"
+msgstr ""
+
+#: includes/payments/order-functions.php:30
+msgid "New Order"
+msgstr ""
+
+#: includes/payments/order-functions.php:31
+msgid "View Order"
+msgstr ""
+
+#: includes/payments/order-functions.php:32
+msgid "Search Orders"
+msgstr ""
+
+#: includes/payments/order-functions.php:33
+msgid "No orders found"
+msgstr ""
+
+#: includes/payments/order-functions.php:34
+msgid "No orders found in Trash"
+msgstr ""
+
+#: includes/payments/order-functions.php:35
+msgid "Parent Order:"
+msgstr ""
+
+#: includes/payments/order-functions.php:48
+#, php-format
+msgid "Pending <span class=\"count\">(%s)</span>"
+msgid_plural "Pending <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/payments/order-functions.php:49
+#, php-format
+msgid "Failed <span class=\"count\">(%s)</span>"
+msgid_plural "Failed <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/payments/order-functions.php:50
+#, php-format
+msgid "Completed <span class=\"count\">(%s)</span>"
+msgid_plural "Completed <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/payments/order-functions.php:51
+#, php-format
+msgid "Activated <span class=\"count\">(%s)</span>"
+msgid_plural "Activated <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/payments/order-view.php:73 includes/payments/admin/orders.php:80
+msgid "Total"
+msgstr ""
+
+#: includes/payments/admin/admin.php:28
+msgid "Payments"
+msgstr ""
+
+#: includes/payments/admin/admin.php:85
+msgid "Author"
+msgstr ""
+
+#: includes/payments/admin/admin.php:86
+msgid "Item"
+msgstr ""
+
+#: includes/payments/admin/admin.php:87 includes/payments/admin/orders.php:69
+msgid "Price"
+msgstr ""
+
+#: includes/payments/admin/admin.php:88
+msgid "Date"
+msgstr ""
+
+#: includes/payments/admin/admin.php:141
+#, php-format
+msgid "Purchased %s item"
+msgid_plural "Purchased %s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/payments/admin/admin.php:164
+#: includes/payments/admin/orders.php:162
+msgid "Unknown"
+msgstr ""
+
+#: includes/payments/admin/admin.php:167
+#: includes/payments/admin/orders.php:165
+msgid "Undecided"
+msgstr ""
+
+#: includes/payments/admin/admin.php:189
+msgid "Unpublished"
+msgstr ""
+
+#: includes/payments/admin/admin.php:192
+msgid "Y/m/d g:i:s A"
+msgstr ""
+
+#: includes/payments/admin/admin.php:201
+msgid "Y/m/d"
+msgstr ""
+
+#: includes/payments/admin/orders.php:70
+msgid "Affects"
+msgstr ""
+
+#: includes/payments/admin/orders.php:95
+msgid ""
+"This item could not be recognized. It might be from another theme or an "
+"uninstalled plugin."
+msgstr ""
+
+#: includes/payments/admin/orders.php:144
+msgid "ID"
+msgstr ""
+
+#: includes/payments/admin/orders.php:152
+msgid "Gateway"
+msgstr ""
+
+#: includes/payments/admin/orders.php:171
+msgid "Currency"
+msgstr ""
+
+#: includes/payments/admin/settings.php:16
+msgid "Payments Settings"
+msgstr ""
+
+#: includes/payments/admin/settings.php:31
+msgid "General"
+msgstr ""
+
+#: includes/payments/admin/settings.php:34
+msgid "Currencies"
+msgstr ""
+
+#: includes/payments/admin/settings.php:37
+msgid "Currency Selection"
+msgstr ""
+
+#: includes/payments/admin/settings.php:46
+msgid "Installed Gateways"
+msgstr ""
+
+#: includes/payments/admin/settings.php:67
+msgid ""
+"This gateway is currently <strong>disabled</strong>. Users cannot use it as "
+"a purchasing option. Go to the <a href=\"?page=app-payments-settings"
+"\">General</a> tab to enable it."
+msgstr ""
+
+#: includes/payments/admin/settings.php:121
+msgid "Enable"
+msgstr ""
+
+#: includes/payments/format/currencies.php:25
+msgid "US Dollars"
+msgstr ""
+
+#: includes/payments/format/currencies.php:30
+msgid "Euros"
+msgstr ""
+
+#: includes/payments/format/currencies.php:35
+msgid "Pounds Sterling"
+msgstr ""
+
+#: includes/payments/format/currencies.php:40
+msgid "Australian Dollars"
+msgstr ""
+
+#: includes/payments/format/currencies.php:45
+msgid "Brazilian Real"
+msgstr ""
+
+#: includes/payments/format/currencies.php:50
+msgid "Canadian Dollars"
+msgstr ""
+
+#: includes/payments/format/currencies.php:55
+msgid "Czech Koruna"
+msgstr ""
+
+#: includes/payments/format/currencies.php:60
+msgid "Danish Krone"
+msgstr ""
+
+#: includes/payments/format/currencies.php:65
+msgid "Hong Kong Dollar"
+msgstr ""
+
+#: includes/payments/format/currencies.php:70
+msgid "Hungarian Forint"
+msgstr ""
+
+#: includes/payments/format/currencies.php:75
+msgid "Israeli Shekel"
+msgstr ""
+
+#: includes/payments/format/currencies.php:80
+msgid "Japanese Yen"
+msgstr ""
+
+#: includes/payments/format/currencies.php:85
+msgid "Malaysian Ringgits"
+msgstr ""
+
+#: includes/payments/format/currencies.php:90
+msgid "Mexican Peso"
+msgstr ""
+
+#: includes/payments/format/currencies.php:95
+msgid "New Zealand Dollar"
+msgstr ""
+
+#: includes/payments/format/currencies.php:100
+msgid "Norwegian Krone"
+msgstr ""
+
+#: includes/payments/format/currencies.php:105
+msgid "Philippine Pesos"
+msgstr ""
+
+#: includes/payments/format/currencies.php:110
+msgid "Polish Zloty"
+msgstr ""
+
+#: includes/payments/format/currencies.php:115
+msgid "Singapore Dollar"
+msgstr ""
+
+#: includes/payments/format/currencies.php:120
+msgid "Swedish Krona"
+msgstr ""
+
+#: includes/payments/format/currencies.php:125
+msgid "Swiss Franc"
+msgstr ""
+
+#: includes/payments/format/currencies.php:130
+msgid "Taiwan New Dollar"
+msgstr ""
+
+#: includes/payments/format/currencies.php:135
+msgid "Thai Baht"
+msgstr ""
+
+#: includes/payments/format/currencies.php:140
+msgid "Turkish Lira"
+msgstr ""
+
+#: includes/payments/gateways/boomerang-class.php:51
+msgid "You are now being redirected."
+msgstr ""
+
+#: includes/payments/gateways/gateway-functions.php:49
+msgid " (disabled)"
+msgstr ""
+
+#: includes/payments/gateways/gateway-functions.php:57
+msgid "-- No Gateways are currently available. --"
+msgstr ""
+
+#: includes/payments/gateways/bank-transfer/bt-admin.php:6
+#: includes/payments/gateways/bank-transfer/bt-gateway.php:14
+#: includes/payments/gateways/bank-transfer/bt-gateway.php:15
+#: includes/payments/gateways/bank-transfer/bt-gateway.php:78
+msgid "Bank Transfer"
+msgstr ""
+
+#: includes/payments/gateways/bank-transfer/bt-admin.php:29
+msgid ""
+"You must mark this transfer as completed before the purchase can proceed."
+msgstr ""
+
+#: includes/payments/gateways/bank-transfer/bt-admin.php:34
+msgid "Mark as Completed"
+msgstr ""
+
+#: includes/payments/gateways/bank-transfer/bt-emails.php:7
+msgid ""
+"A new order is waiting to be processed. Once you recieve payment, you should "
+"mark the order as completed."
+msgstr ""
+
+#: includes/payments/gateways/bank-transfer/bt-emails.php:9
+#, php-format
+msgid "<a href=\"%s\">Review this order</a>"
+msgstr ""
+
+#: includes/payments/gateways/bank-transfer/bt-emails.php:13
+msgid "review all pending orders"
+msgstr ""
+
+#: includes/payments/gateways/bank-transfer/bt-emails.php:16
+#, php-format
+msgid "%s or %s"
+msgstr ""
+
+#: includes/payments/gateways/bank-transfer/bt-emails.php:18
+#, php-format
+msgid "[%s] Pending Order #%s"
+msgstr ""
+
+#: includes/payments/gateways/bank-transfer/bt-gateway.php:29
+msgid "Transfer Information"
+msgstr ""
+
+#: includes/payments/gateways/bank-transfer/bt-gateway.php:40
+#: includes/payments/gateways/paypal/paypal.php:144
+msgid "General Information"
+msgstr ""
+
+#: includes/payments/gateways/bank-transfer/bt-gateway.php:81
+msgid "Instructions:"
+msgstr ""
+
+#: includes/payments/gateways/bank-transfer/bt-gateway.php:88
+msgid "Order Information:"
+msgstr ""
+
+#: includes/payments/gateways/bank-transfer/bt-gateway.php:91
+msgid "Order ID:"
+msgstr ""
+
+#: includes/payments/gateways/bank-transfer/bt-gateway.php:92
+msgid "Order Total:"
+msgstr ""
+
+#: includes/payments/gateways/bank-transfer/bt-gateway.php:95
+msgid "For questions or problems, please contact us directly at"
+msgstr ""
+
+#: includes/payments/gateways/paypal/paypal.php:22
+#: includes/payments/gateways/paypal/paypal.php:23
+msgid "PayPal"
+msgstr ""
+
+#: includes/payments/gateways/paypal/paypal.php:65
+msgid ""
+"PayPal has responded to your transaction as invalid. Please contact site "
+"owner."
+msgstr ""
+
+#: includes/payments/gateways/paypal/paypal.php:117
+#, php-format
+msgid "Continue to %s"
+msgstr ""
+
+#: includes/payments/gateways/paypal/paypal.php:132
+msgid "You are now being redirected to PayPal."
+msgstr ""
+
+#: includes/payments/gateways/paypal/paypal.php:147
+msgid "PayPal Email"
+msgstr ""
+
+#: includes/payments/gateways/paypal/paypal.php:148
+msgid ""
+"Enter your PayPal account email address. This is where your money gets sent."
+msgstr ""
+
+#: includes/payments/gateways/paypal/paypal.php:154
+msgid "Sandbox Mode"
+msgstr ""
+
+#: includes/payments/gateways/paypal/paypal.php:155
+#, php-format
+msgid ""
+"You must have a <a target='_new' href='%s'>PayPal Sandbox</a> account setup "
+"before using this feature."
+msgstr ""
+
+#: includes/payments/gateways/paypal/paypal.php:156
+msgid ""
+"By default PayPal is set to live mode. If you would like to test and see if "
+"payments are being processed correctly, check this box to switch to sandbox "
+"mode."
+msgstr ""
+
+#: includes/payments/gateways/paypal/paypal.php:164
+msgid "Payment Data Transfer (PDT)"
+msgstr ""
+
+#: includes/payments/gateways/paypal/paypal.php:167
+msgid "Enable PDT"
+msgstr ""
+
+#: includes/payments/gateways/paypal/paypal.php:168
+#, php-format
+msgid "See our <a href=\"%s\">tutorial</a> on enabling Payment Data Transfer."
+msgstr ""
+
+#: includes/payments/gateways/paypal/paypal.php:173
+msgid "Identity Token"
+msgstr ""
+
+#: includes/reports/report.class.php:43
+msgid "Unable to retrieve post details!"
+msgstr ""
+
+#: includes/reports/report.class.php:58 includes/reports/report.class.php:92
+#, php-format
+msgid "Error, Unable to add new report: %s"
+msgstr ""
+
+#: includes/reports/report.class.php:110 includes/reports/report.class.php:121
+#: includes/reports/report.class.php:132
+#, php-format
+msgid "Error, Unable to delete report: %s"
+msgstr ""
+
+#: includes/reports/report.class.php:187
+msgid "Coupon Reported"
+msgstr ""
+
+#: includes/reports/report.class.php:196
+#, php-format
+msgid "The following coupon has just been reported as %s."
+msgstr ""
+
+#: includes/reports/report.class.php:199
+#, php-format
+msgid "Title: %s"
+msgstr ""
+
+#: includes/reports/report.class.php:201
+msgid ""
+"You will not receive further notification for this coupon until it has been "
+"archived or deleted. However all future reports will be logged and can be "
+"viewed on each coupon admin page."
+msgstr ""
+
+#: includes/reports/reports-ajax.php:51
+msgid "Invalid post"
+msgstr ""
+
+#: includes/reports/reports-ajax.php:56
+msgid "Security check failed. Please try again."
+msgstr ""
+
+#: includes/reports/reports-ajax.php:67
+msgid "You have already reported this coupon."
+msgstr ""
+
+#: includes/reports/reports-ajax.php:119
+msgid "Thanks for reporting!"
+msgstr ""
+
+#: includes/reports/reports-ajax.php:123
+msgid "Reported as "
+msgstr ""
+
+#: includes/reports/reports-ajax.php:125
+msgid "Comments: "
+msgstr ""
+
+#: includes/reports/reports-main.php:192
+msgid "Processing your request, Please wait...."
+msgstr ""
+
+#: includes/reports/reports-main.php:204
+msgid "Report"
+msgstr ""
+
+#: includes/reports/reports-main.php:333
+msgid "New Reports"
+msgstr ""
+
+#: includes/reports/reports-main.php:338 includes/reports/reports-main.php:488
+msgid "selected:"
+msgstr ""
+
+#: includes/reports/reports-main.php:338 includes/reports/reports-main.php:347
+msgid "Archive it"
+msgstr ""
+
+#: includes/reports/reports-main.php:338
+msgid "or"
+msgstr ""
+
+#: includes/reports/reports-main.php:338 includes/reports/reports-main.php:488
+msgid "Delete it"
+msgstr ""
+
+#: includes/reports/reports-main.php:338 includes/reports/reports-main.php:488
+msgid "(* will be removed permanently)"
+msgstr ""
+
+#: includes/reports/reports-main.php:340 includes/reports/reports-main.php:490
+msgid "Total Reports:"
+msgstr ""
+
+#: includes/reports/reports-main.php:344
+msgid "Moderator Comments:"
+msgstr ""
+
+#: includes/reports/reports-main.php:346
+msgid "* Your User ID and IP will be logged!"
+msgstr ""
+
+#: includes/reports/reports-main.php:351 includes/reports/reports-main.php:494
+msgid ""
+"Once deleted, It will be Permanently removed from database. This Report "
+"record canno't be found again"
+msgstr ""
+
+#: includes/reports/reports-main.php:352 includes/reports/reports-main.php:495
+msgid "Confirm Deleting?"
+msgstr ""
+
+#: includes/reports/reports-main.php:352 includes/reports/reports-main.php:495
+msgid "Confirm Delete"
+msgstr ""
+
+#: includes/reports/reports-main.php:362 includes/reports/reports-main.php:369
+#: includes/reports/reports-main.php:505 includes/reports/reports-main.php:512
+msgid "Post Title"
+msgstr ""
+
+#: includes/reports/reports-main.php:363 includes/reports/reports-main.php:370
+#: includes/reports/reports-main.php:506 includes/reports/reports-main.php:513
+msgid "# Reports"
+msgstr ""
+
+#: includes/reports/reports-main.php:384 includes/reports/reports-main.php:527
+#: includes/reports/reports.php:95
+msgid "Edit The Post"
+msgstr ""
+
+#: includes/reports/reports-main.php:385 includes/reports/reports.php:52
+msgid "Report Details"
+msgstr ""
+
+#: includes/reports/reports-main.php:385 includes/reports/reports-main.php:528
+msgid "# View Details"
+msgstr ""
+
+#: includes/reports/reports-main.php:393 includes/reports/reports-main.php:536
+msgid "No Reports Found!"
+msgstr ""
+
+#: includes/reports/reports-main.php:404 includes/reports/reports-main.php:547
+msgid "Pages:"
+msgstr ""
+
+#: includes/reports/reports-main.php:483
+msgid "Archived Reports"
+msgstr ""
+
+#: includes/reports/reports-main.php:528
+msgid "Archived Report Details"
+msgstr ""
+
+#: includes/reports/reports-main.php:595
+msgid "[!] Report This Post"
+msgstr ""
+
+#: includes/reports/reports-main.php:596
+msgid "Thanks for Reporting [post_title]"
+msgstr ""
+
+#: includes/reports/reports-main.php:597
+msgid "Report contents"
+msgstr ""
+
+#: includes/reports/reports-main.php:623
+msgid "Sending Email Option"
+msgstr ""
+
+#: includes/reports/reports-main.php:624
+msgid "Sending Email Address"
+msgstr ""
+
+#: includes/reports/reports-main.php:625
+msgid "Link Text"
+msgstr ""
+
+#: includes/reports/reports-main.php:626 includes/reports/reports-main.php:727
+msgid "Thank you Message"
+msgstr ""
+
+#: includes/reports/reports-main.php:627
+msgid "Report Options"
+msgstr ""
+
+#: includes/reports/reports-main.php:628
+msgid "Attach Option"
+msgstr ""
+
+#: includes/reports/reports-main.php:630
+msgid "Register users Only"
+msgstr ""
+
+#: includes/reports/reports-main.php:631
+msgid "Display on Pages"
+msgstr ""
+
+#: includes/reports/reports-main.php:632
+msgid "Limited Categories"
+msgstr ""
+
+#: includes/reports/reports-main.php:638
+msgid "Updated"
+msgstr ""
+
+#: includes/reports/reports-main.php:643
+msgid "No Option Updated"
+msgstr ""
+
+#: includes/reports/reports-main.php:674
+msgid "Users Only:"
+msgstr ""
+
+#: includes/reports/reports-main.php:675
+msgid "Tick this box, If you want to Limit to Logged-in users only can report."
+msgstr ""
+
+#: includes/reports/reports-main.php:680
+msgid ""
+"Tick this box, If you want to Attach Report POST Form to your Page Contents"
+msgstr ""
+
+#: includes/reports/reports-main.php:718
+msgid "Report Post Link text"
+msgstr ""
+
+#: includes/reports/reports-main.php:719
+msgid "You can use HTML"
+msgstr ""
+
+#: includes/reports/reports-main.php:724
+msgid "* One Per Line"
+msgstr ""
+
+#: includes/reports/reports-main.php:728
+msgid ""
+"* [post_title] will be Replaced with Original Post Title on reporting. you "
+"can use HTML"
+msgstr ""
+
+#: includes/reports/reports-main.php:732
+msgid "Send Email:"
+msgstr ""
+
+#: includes/reports/reports-main.php:734
+msgid "to:"
+msgstr ""
+
+#: includes/reports/reports-main.php:735
+msgid "* Only One Email Will be Send Per POST"
+msgstr ""
+
+#: includes/reports/reports-main.php:746
+msgid ""
+"You should edit your theme and include this PHP code <em>&lt;?php reports"
+"(true);?&gt;</em> to include the report form."
+msgstr ""
+
+#: includes/reports/reports.php:91
+msgid "Report details"
+msgstr ""
+
+#: includes/reports/reports.php:94
+msgid "Post / Page:"
+msgstr ""
+
+#: includes/reports/reports.php:98
+msgid "first reported on:"
+msgstr ""
+
+#: includes/reports/reports.php:106
+msgid "Reports:"
+msgstr ""
+
+#: includes/reports/reports.php:109
+msgid "IP"
+msgstr ""
+
+#: includes/reports/reports.php:110
+msgid "Type"
+msgstr ""
+
+#: includes/reports/reports.php:128
+msgid "Archived By"
+msgstr ""
+
+#: includes/reports/reports.php:133
+msgid "Sorry, No Archive Record Found!"
+msgstr ""
+
+#: includes/reports/reports.php:142
+msgid "Archived By:"
+msgstr ""

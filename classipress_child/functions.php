@@ -40,19 +40,6 @@ function cp_dynamic_welcome_widget($optionString) {
  $smHomepageSidebar .= '<a href="' . get_option('home') . '/wp-login.php?action=register">' . __("Join Now!", 'cp') . '</a>';
  $smHomepageSidebar .= '<br />';
  $smHomepageSidebar .= '</div><!-- /dotted -->';
-
- //Create the Login Form
- $smHomepageSidebar .= '<div style="margin-top: 10px;">';
- $smHomepageSidebar .= '<form action="' . get_bloginfo('url') . '/wp-login.php" method="post">';
- $smHomepageSidebar .= '<label style="font-size: 11px; margin-left: 1px;" for="log">Username: <input type="text" name="log" id="log" value="' .  wp_specialchars(stripslashes($user_login), 1) . '" size="11" style="height: 10px; font-size: 10px;" /></label>';
-
- $smHomepageSidebar .= '<label style="font-size: 11px; margin-left: 1px;" for="pwd">Password: <input type="password" name="pwd" id="pwd" size="11" style="height: 10px; font-size: 10px;" /></label>';
- $smHomepageSidebar .= '<input style="font-size: 11px; margin-left: 1px;" type="submit" name="submit" value="Login"  /><br />';
- $smHomepageSidebar .= '<label style="font-size: 11px; margin-left: 1px; vertical-align:baseline; line-height: 2.1em;" for="rememberme"><input  style="margin: 0; position: relative; top: 3px;" name="rememberme" id="rememberme" type="checkbox" checked="checked" value="forever" /> Remember me </label>  | ';
- $smHomepageSidebar .= '<a style="font-size: 11px; margin-left: 1px;" href="' . get_bloginfo('url') . '/wp-login.php?action=lostpassword">Recover password</a>';
- $smHomepageSidebar .= '<input type="hidden" name="redirect_to" value="' . $_SERVER['REQUEST_URI'] . '"/>';
- $smHomepageSidebar .= '</form>';
- $smHomepageSidebar .= '</div>';
  }
  return $smHomepageSidebar;
 }
@@ -76,6 +63,29 @@ function cp_get_price($postid) {
 	echo $price_out;
 }
 
+// Unhook default ClassiPress functions - Corbs
+function unhook_classipress_functions() {
+    remove_action( 'appthemes_before_post_title', 'cp_ad_loop_price' );
+}
+add_action('init','unhook_classipress_functions');
 
+function cp_remove_loop_price() {
+    if ( is_page() ) return; // don't do ad-meta on pages
+    global $post;
+      if ( $post->post_type == 'page' || $post->post_type == 'post' ) return;
+      $price = get_post_meta($post->ID, 'cp_price', true); 
+      if (!empty($price) AND ($price>0)){
+?>        
+    <div class="price-wrap">
+       <span class="tag-head">&nbsp;</span><p class="post-price">
+    <?php if ( get_post_meta( $post->ID, 'price', true ) ) cp_get_price_legacy( $post->ID );
+     else cp_get_price( $post->ID, 'cp_price' ); ?></p>
+        </div>
+ <?php
+} else { ?>
+ <?php
+}
+}
+add_action( 'appthemes_before_post_title', 'cp_remove_loop_price' );
 //Do not place any code below this line.
 ?>

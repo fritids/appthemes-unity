@@ -1,0 +1,118 @@
+/* This sheet applies to all pro stylesheets */
+
+/* =Layout Widths
+---------------------------------------------------------------------------------- */
+
+#searchform {	
+	width: 850px !important;
+}
+#searchform div div {
+	width: 842px;
+}
+#searchform input.text {
+	width: 570px;
+}
+
+/* for new search bar */
+#searchform div.search-wrap {
+    padding:6px;
+    overflow: hidden;
+    zoom: 1;
+    height: auto !important;
+}
+#searchform div.search-wrap div {
+    width:auto;
+}
+#searchform div.search-wrap div.radius {
+	background: transparent none;
+	padding: 4px 0 0 0;
+	margin: 0;
+	border: 0;
+	float: right;
+	height: auto !important;
+	display:none;
+}
+/*#searchform div.search-wrap label.inline {
+	line-height: 42px;
+	float: left;
+	width: 59px;
+	text-align: center;
+	color: #bbb;
+	font-style: italic;
+	font-size: 11px;
+	font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+}*/
+#searchform input#search {
+    width:293px;
+    border-right: 1px dotted #ccc;
+    padding: 5px 11px;
+    margin: 6px 0;
+}
+#searchform input#near {
+    width:254px;
+    border-left: 1px dotted #ccc;
+    padding: 5px 11px;
+    margin: 6px 0;
+}
+/* end new search bar */
+
+div#content {
+	width: 960px;
+}
+div#content .inner {
+	width: 960px;
+}
+#searchform {
+	width: 900px;
+}
+.section {
+	width:100%;
+}
+#mainContent {
+	width: 670px;	
+}
+#sidebar, ul.widgets {
+	width: 270px;
+}
+
+ol.jobs dd.title {
+	width: 300px;
+	padding-right: 10px;
+}
+ol.jobs dd.location {
+	width: 140px;
+	padding-right: 10px;
+}
+ol.jobs dd.date, ol.resumes dd.date {
+	width: 70px;
+	text-align: right;
+}
+
+.wider #mainContent, .wider .section {
+	width: 950px !important
+}
+.wider ol.jobs dd.title {
+	width: 510px !important;
+}
+.wider ol.jobs dd.location {
+	width: 240px !important;
+}
+.wider #searchform {
+	width: 950px !important
+}
+.wider #searchform div div {
+	width: 942px !important
+}
+.wider #searchform input.text {
+	width: 875px;
+}
+
+#topNav ul {
+	width: 960px;
+}
+
+ul.widgets li.widget {
+	width: 270px;
+}
+ul.widgets li.widget-submit div {
+}

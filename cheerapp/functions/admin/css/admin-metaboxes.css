@@ -1,0 +1,76 @@
+.royal-metabox p {
+	margin-bottom: 20px !important;
+}
+
+.royal-metabox .royal-meta-section {
+	border-top: 1px solid white;
+	border-bottom: 1px solid #dfdfdf;
+	padding: 20px;
+}
+
+.royal-metabox .royal-meta-section:first-child {
+	border-top-width: 0;
+}
+
+.royal-metabox .royal-meta-section:last-child {
+	border-bottom-width: 0;
+}
+
+.royal-metabox label,
+.royal-metabox label small {
+	display: block;
+}
+
+.royal-metabox label {
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.royal-metabox label small {
+	font-weight: normal;
+	text-transform: none;
+}
+
+.royal-metabox input + label {
+	display: inline;
+	font-weight: normal;
+	text-transform: none;
+	margin-bottom: 0;
+	margin-right: 20px;
+}
+
+.royal-metabox input[type=text] {
+	width: 50%;
+}
+
+.royal-metabox textarea {
+	height: 200px;
+	width: 50%;
+}
+
+#featured-custom-box .inside {
+	margin: 0;
+	padding: 0;
+}
+
+.royal-metabox .small-input {
+	width: 30%;
+	padding: 0 1%;
+	float: left;
+}
+
+.royal-metabox .small-input input[type=text] {
+	width: 90%;
+}
+
+.royal-metabox .clear {
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+.royal-metabox .description {
+	display: block;
+}

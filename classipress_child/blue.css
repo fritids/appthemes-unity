@@ -12,7 +12,7 @@ a { color:#4083A9; text-decoration:underline;}
 .header_main_res #logo h1 { color:#666666; font-size:38px; margin:0px; padding:0px; }
 .header_main_res #logo h1 a { color:#666666; text-decoration: none; margin:0px; padding:0px; }
 .header_main_res .description { color:#999999; font-family:Georgia,serif; font-size:14px; font-style:italic; }
-.header_menu { background:#4083A9; border-top:1px solid #2A6F96; border-bottom:1px solid #2A6F96; height:30px;/*height:44px;*/}
+.header_menu { background:#4083A9; border-top:1px solid #2A6F96; border-bottom:3px solid #39657E; height:30px;/*height:44px;*/}
 .cp_logo {height:80px; width:300px; background:transparent url(../images/cp_logo_black.png) no-repeat scroll 0 0}
 
 /* top search button styles */
@@ -37,7 +37,7 @@ a { color:#4083A9; text-decoration:underline;}
 
 /* footer */
 .footer_menu { background:#4083A9; border-bottom:1px solid #5A9AB6; border-top: 1px solid #2A6F96;}
-.footer_main_res div.column p { margin:0; padding:0; font:normal 14px/1.8em Arial, Helvetica, sans-serif; color:#5671a9;}
+.footer_main_res div.column p {}
 .footer_main_res div.column p a { color:#4083A9;}
 .footer_main_res div.column ul li a { color:#4083A9; text-decoration:none;}
-.footer_main_res div.column { font:normal 14px/1.8em Arial, Helvetica, sans-serif; color:#5671a9;}
+.footer_main_res div.column {}

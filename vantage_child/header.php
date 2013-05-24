@@ -1,13 +1,16 @@
 <div id="masthead" class="container">
 	<div class="row">
 		<hgroup>
-			<?php va_display_logo(); ?><div class="hdmenu"><ul><li class="hdmenustart"></li><ul><li><a href="*">Directory</a></li><li><a href="*">Forums</a></li><li><a href="*">Events</a></li><li><a href="*">Coupons</a></li><li><a href="*">Jobs</a></li></ul></ul></div>
+			<?php va_display_logo(); ?>
 		</hgroup>
 		<div class="advert">
 			<?php dynamic_sidebar( 'va-header' ); ?>
 		</div>
 	</div>
 </div>
+			<div id="sitenav">
+				<ul><li><a href="http://brentbook.com">News</a></li><li class="bbcurrent"><a href="http://directory.brentbook.com">Directory</a></li><li><a href="http://jobs.brentbook.com">jobs</a></li><li><a href="http://forums.brentbook.com">Forums</a></li><li><a href="http://classifieds.brentbook.com">Classifieds</a></li></ul>
+			</div>
 <div id="main-navigation">
     <div id="rounded-nav-box-overlay">
         <div id="pmhmenu"
@@ -59,11 +62,18 @@
 					<?php the_search_refinements(); ?>
 				</form>
 				<?php endif; ?>
-			
 		</div>
 	</div>
 </div>
 
+<?php if (is_front_page()) { 
+	$arg = array('w' => '946px','h' => '250px','zoom' => '14','ismapnormal' => '1');?>
+	<div class="busmap">
+<?php do_action('wpw_vantage_gmap_code',$arg); ?>
+	</div>
+<?php } ?>
+
+<?php if ( !is_front_page()) { ?>
 <div id="breadcrumbs" class="container">
 	<div class="row">
 		<?php breadcrumb_trail( array(
@@ -72,5 +82,4 @@
 			'show_home' => '<img src="' . get_template_directory_uri() . '/images/breadcrumb-home.png" />',
 		) ); ?>
 	</div>
-</div>
-
+</div> <?php } ?>
